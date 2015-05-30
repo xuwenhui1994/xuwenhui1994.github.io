@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[许文辉的博客]]></title>
+  <subtitle><![CDATA[工作·生活]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://www.xuwenhui.net/"/>
+  <updated>2015-05-30T06:23:42.708Z</updated>
+  <id>http://www.xuwenhui.net/</id>
+  
+  <author>
+    <name><![CDATA[许文辉]]></name>
+    <email><![CDATA[398279436@qq.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[关于博客]]></title>
+    <link href="http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://www.xuwenhui.net/2015/05/30/关于博客/</id>
+    <published>2015-05-30T06:23:42.708Z</published>
+    <updated>2015-05-30T06:23:42.708Z</updated>
+    <content type="html"><![CDATA[<p><em>花了几天时间，终于成功搭建了我的独立博客~~~喜o(∩_∩)o</em></p>
+<h1 id="感谢在前">感谢在前</h1><hr>
+<p>我的博客的搭建主要是参考了<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/" target="_blank" rel="external">这篇博客</a>的内容，文章写的很好，过程相当清楚，十分感谢作者的辛勤付出！</p>
+<hr>
+<h1 id="博客说明">博客说明</h1><hr>
+<p>本博客是静态博客，是搭建在<a href="https://pages.github.com/" target="_blank" rel="external">Github Pages</a>上使用了<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>开源框架完成的。</p>
+<hr>
+<h1 id="总结">总结</h1><hr>
+<p>此处只给出我的一些总结，具体步骤请移步前文链接:</p>
+<h2 id="搭建独立博客的主要问题：">搭建独立博客的主要问题：</h2><ul>
+<li>域名</li>
+<li>空间</li>
+<li>博客框架</li>
+<li>写博客</li>
+</ul>
+<h2 id="解决方案：">解决方案：</h2><ol>
+<li><p><strong>域名：</strong>去域名注册服务商购买顶级域名，或者去一些开放平台注册免费的二级域名</p>
+<p> <em>注：我是在万网花39元购买顶级域名xuwenhui.net,可以使用一年。不是打广告啊！！！<a href="http://www.net.cn/" target="_blank" rel="external">万网</a>是阿里云旗下的，在国内是最大的域名注册服务商，国际上最大的域名注册服务商是<a href="https://www.godaddy.com" target="_blank" rel="external">Go Daddy</a>，貌似网上别人都推荐去这个，不过，支持国产嘛~~。你可以去万网搜索你想要的任何域名地址，如果没有被注册，你就可以立马下手了，相对于购买主机、空间等，域名真真是太便宜了。也是因为这个原因，我只花钱买了域名，其他的都用的免费的。</em></p>
+</li>
+<li><p><strong>空间：</strong>去购买云服务器、云主机，或者使用各种免费的云平台（如SAE、JAE），再或者就是利用<a href="http://pages.github.com/" target="_blank" rel="external">Github Pages</a>建立静态博客</p>
+<p> <em>注：由于各种免费的云平台实在太坑，最终我决定自己动手搭建，我使用Github Pages建立了静态博客，接下来需要做的是将独立域名与GitHub Pages的空间绑定，这样一个基本的博客空壳搭建成功。</em><br><img src="http://7xjda2.com1.z0.glb.clouddn.com/github.jpg" alt=""></p>
+</li>
+<li><p><strong>博客框架：</strong>博客框架有很多，比如最鼎鼎大名的<a href="https://wordpress.org/" target="_blank" rel="external">WordPress</a>、还有Octopress、Jekyll、Hexo等</p>
+<p> <em>注：<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>是一款基于Node.js的静态博客框架，实践发现确实安装配置起来比较简单，就如它官方介绍的一样：快速、简单、强大。然后关于Hexo的主题资源也比较丰富，我使用的主题是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT</a>这款主题。</em><br><img src="http://7xjda2.com1.z0.glb.clouddn.com/hexo.jpg" alt=""></p>
+</li>
+<li><p><strong>写博客：</strong>专注于文字而不是排版，推荐使用Markdown语言</p>
+<p> <em>注：这里有一篇很好的<a href="http://www.jianshu.com/p/q81RER" target="_blank" rel="external">Markdown新手指南</a>。搭建好独立博客以后，我现在的写博客过程就变得十分容易了：(1).用<a href="http://markdownpad.com/" target="_blank" rel="external">MarkdownPad 2</a>客户端写博客，(2).使用hexo命令：hexo d -g部署到我的网站。OK，就是这么容易！！！</em></p>
+</li>
+</ol>
+<hr>
+<h1 id="结束">结束</h1><p>第一次搭建博客，过程并不容易，但也算竣工了。总的感受是：</p>
+<blockquote>
+<p>自己的独立博客，仍需要好好经营，勤于管理，一旦荒废，其实一文不值。<br>内容不管是总结技术，还是记录生活点滴，都是一个人的成长。一切为了更加强大的自己！</p>
+</blockquote>
+<p>很喜欢这样一句话，与君共勉：</p>
+<blockquote>
+<p>我们的征途是星辰大海。</p>
+</blockquote>
+<p>此处盗图一张：</p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/小米招聘.jpg" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[主要说明我在博客的搭建过程中的总结与感受，欢迎留言，欢迎交流。]]>
+    
+    </summary>
+    
+      <category term="关于博客" scheme="http://www.xuwenhui.net/tags/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="关于博客" scheme="http://www.xuwenhui.net/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
