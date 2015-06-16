@@ -4,7 +4,7 @@
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net/"/>
-  <updated>2015-06-08T04:09:58.109Z</updated>
+  <updated>2015-06-16T07:37:52.632Z</updated>
   <id>http://www.xuwenhui.net/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.xuwenhui.net/2015/06/08/%E6%95%B4%E7%90%86%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/"/>
     <id>http://www.xuwenhui.net/2015/06/08/整理的学习网站/</id>
     <published>2015-06-08T02:00:26.000Z</published>
-    <updated>2015-06-08T04:09:58.109Z</updated>
+    <updated>2015-06-16T07:37:52.632Z</updated>
     <content type="html"><![CDATA[<h1 id="IT网站">IT网站</h1><p>各种十分好用的IT网站。  </p>
 <ul>
 <li><a href="https://github.com/" target="_blank" rel="external">GitHub</a> - 全球知名的代码托管平台  </li>
@@ -27,6 +27,7 @@
 <li><a href="http://apistore.baidu.com/" target="_blank" rel="external">API Store</a> - 最近常常调用API，百度整理的十分丰富的API资源  </li>
 <li><a href="http://www.csdn.net/" target="_blank" rel="external">CSDN.NET</a> - 全球最大中文IT社区，各种博客什么的还不错  </li>
 <li><a href="https://portal.qiniu.com/" target="_blank" rel="external">七牛云存储</a> - 图床工具，简单好用，我的博客的图片资源地址就来自于此  </li>
+<li><a href="http://bestcbooks.com/" target="_blank" rel="external">计算机书籍控</a> - 提供各种计算机类的书籍PDF下载，分类整理的还不错，还有程序员必读书籍  </li>
 </ul>
 <hr>
 <h1 id="博客">博客</h1><p>我经常光顾的一些大牛博客，主要是android相关。  </p>
