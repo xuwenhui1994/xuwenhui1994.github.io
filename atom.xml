@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
+  
   <title><![CDATA[许文辉的博客]]></title>
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://www.xuwenhui.net/"/>
+  <link href="http://www.xuwenhui.net//"/>
   <updated>2015-06-18T16:48:42.762Z</updated>
-  <id>http://www.xuwenhui.net/</id>
+  <id>http://www.xuwenhui.net//</id>
   
   <author>
     <name><![CDATA[许文辉]]></name>
