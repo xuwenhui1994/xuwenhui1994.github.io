@@ -115,10 +115,10 @@
     <link href="http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
     <id>http://www.xuwenhui.net/2015/05/30/关于博客/</id>
     <published>2015-05-30T07:53:25.000Z</published>
-    <updated>2015-06-23T11:51:09.279Z</updated>
+    <updated>2015-06-23T15:49:39.259Z</updated>
     <content type="html"><![CDATA[<p><em>花了几天时间，终于成功搭建了我的独立博客~~~喜o(∩_∩)o</em></p>
 <h1 id="感谢在前">感谢在前</h1><hr>
-<p>我的博客的搭建主要是参考了<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/" target="_blank" rel="external">这篇博客</a>的内容，文章写的很好，过程相当清楚，十分感谢作者的辛勤付出！<br>其他相关参考：<br><a href="http://ixirong.com/2015/05/17/how-to-build-ixirong-blog/" target="_blank" rel="external">使用 github Pages 服务建立 ixirong.com 独立博客全过程</a><br><a href="http://lukang.me/2015/optimization-of-hexo-2.html" target="_blank" rel="external">Hexo 优化与定制(二) | Kang Lu’ Blog</a></p>
+<p>我的博客的搭建主要是参考了<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/" target="_blank" rel="external">这篇博客</a>的内容，文章写的很好，过程相当清楚，十分感谢作者的辛勤付出！<br>其他相关参考：<br><a href="http://ixirong.com/2015/05/17/how-to-build-ixirong-blog/" target="_blank" rel="external">使用 github Pages 服务建立 ixirong.com 独立博客全过程</a>  </p>
 <hr>
 <h1 id="博客说明">博客说明</h1><hr>
 <p>本博客是静态博客，是搭建在<a href="https://pages.github.com/" target="_blank" rel="external">Github Pages</a>上使用了<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>开源框架完成的。</p>
