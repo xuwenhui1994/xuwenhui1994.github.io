@@ -22,7 +22,7 @@
 
 
 
-  <meta name="keywords" content="网站整理," />
+  <meta name="keywords" content="算法,蓝桥杯," />
 
 
 
@@ -57,7 +57,7 @@
 
 
 
-  <title> 整理的学习网站（不定期补充···） // 许文辉的博客 </title>
+  <title> 蓝桥杯比赛算法总结 // 许文辉的博客 </title>
 </head>
 
 <body>
@@ -310,7 +310,7 @@
           
           
             
-              整理的学习网站（不定期补充···）
+              蓝桥杯比赛算法总结
             
           
         </h1>
@@ -318,14 +318,14 @@
 
       <div class="post-meta">
         <span class="post-time">
-          发表于 2015-06-08
+          发表于 2015-06-18
         </span>
 
         
           <span class="post-category">
             &nbsp; | &nbsp; 分类于
             
-              <a href="/categories/网站整理/">网站整理</a>
+              <a href="/categories/算法/">算法</a>
 
               
               
@@ -338,8 +338,8 @@
           
             <span class="post-comments-count">
             &nbsp; | &nbsp;
-            <a href="/2015/06/08/整理的学习网站/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/06/08/整理的学习网站/"></span>
+            <a href="/2015/06/18/lanqiao-algorithm-summary/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/06/18/lanqiao-algorithm-summary/"></span>
             </a>
           </span>
           
@@ -353,40 +353,27 @@
       
 
       
-        <h1 id="IT网站">IT网站</h1><p>各种十分好用的IT网站。  </p>
-<ul>
-<li><a href="https://github.com/" target="_blank" rel="external">GitHub</a> - 全球知名的代码托管平台  </li>
-<li><a href="http://www.oschina.net/" target="_blank" rel="external">开源中国</a> - 中国最大的开源技术社区  </li>
-<li><a href="http://apistore.baidu.com/" target="_blank" rel="external">API Store</a> - 最近常常调用API，百度整理的十分丰富的API资源  </li>
-<li><a href="http://www.csdn.net/" target="_blank" rel="external">CSDN.NET</a> - 全球最大中文IT社区，各种博客什么的还不错  </li>
-<li><a href="https://portal.qiniu.com/" target="_blank" rel="external">七牛云存储</a> - 图床工具，简单好用，我的博客的图片资源地址就来自于此  </li>
-<li><a href="http://bestcbooks.com/" target="_blank" rel="external">计算机书籍控</a> - 提供各种计算机类的书籍PDF下载，分类整理的还不错，还有程序员必读书籍  </li>
-</ul>
+        <ol>
+<li><p>斐波那契（记忆化搜索）  </p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">int memo[MAX_N + 1];  </span><br><span class="line">int fib(int <span class="keyword">n</span>) &#123;  </span><br><span class="line">	<span class="keyword">if</span> (<span class="keyword">n</span> &lt;= 1) <span class="keyword">return</span> <span class="keyword">n</span>;  </span><br><span class="line">	<span class="keyword">if</span> (memo[<span class="keyword">n</span>] != 0) <span class="keyword">return</span> memo[<span class="keyword">n</span>];  </span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> memo[<span class="keyword">n</span>] = fib(<span class="keyword">n</span>-1) + fib(<span class="keyword">n</span>-2);  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>全排列n个元素(非常好用)  </p>
+<figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">//k：当前交换位置与其后元素交换  </span><br><span class="line"><span class="keyword">public</span> static void f(<span class="built_in">char</span>[] <span class="type">data</span>, <span class="built_in">int</span> k)&#123;  </span><br><span class="line">	<span class="keyword">if</span> (k == <span class="type">data</span>.length) &#123;  </span><br><span class="line">		for (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; <span class="type">data</span>.length; i++)  </span><br><span class="line">			system.<span class="type">out</span>.<span class="built_in">print</span>(<span class="type">data</span>[i] + <span class="string">" "</span>);  </span><br><span class="line">		system.<span class="type">out</span>.println();  </span><br><span class="line">	&#125;  </span><br><span class="line">	for (<span class="built_in">int</span> i = k; i &lt; <span class="type">data</span>.length; i++) &#123;  </span><br><span class="line">		<span class="built_in">char</span> t = <span class="type">data</span>[k]; <span class="type">data</span>[k] = <span class="type">data</span>[i]; <span class="type">data</span>[i] = t;//试探  </span><br><span class="line">		f(<span class="type">data</span>, k + <span class="number">1</span>);  </span><br><span class="line">		<span class="built_in">char</span> t = <span class="type">data</span>[k]; <span class="type">data</span>[k] = <span class="type">data</span>[i]; <span class="type">data</span>[i] = t;//回溯  </span><br><span class="line">	&#125;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>辗转相除法求最大公约数  </p>
+<figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span> </span>&#123;  </span><br><span class="line">	<span class="keyword">if</span> (b == <span class="number">0</span>) <span class="keyword">return</span> a;  </span><br><span class="line">	<span class="keyword">else</span> <span class="function"><span class="keyword">return</span> <span class="title">gcd</span><span class="params">(b, a % b)</span></span>;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>埃氏筛法（搜索n以内的所有素数）  </p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> prime[MAX_N];<span class="comment">//第i个素数  </span></span><br><span class="line"><span class="keyword">bool</span> is_prime[MAX_N + <span class="number">1</span>];  </span><br><span class="line"></span><br><span class="line"><span class="comment">//返回n以内素数的个数  </span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">sieve</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;  </span><br><span class="line">	<span class="keyword">int</span> p = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= n; i++)  </span><br><span class="line">		is_prime[i] = <span class="keyword">true</span>;  </span><br><span class="line">	is_prime[<span class="number">0</span>] = is_prime[<span class="number">1</span>] = <span class="keyword">false</span>;  </span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">2</span>; i &lt;= n; i++) &#123;  </span><br><span class="line">		<span class="keyword">if</span> (is_prime[i])&#123;  </span><br><span class="line">			prime[p++] = i;  </span><br><span class="line">			<span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">2</span>*i; j &lt;= n; j += i)  </span><br><span class="line">				is_prime[j] = <span class="keyword">false</span>;  </span><br><span class="line">		&#125;  </span><br><span class="line">	&#125;  </span><br><span class="line">	<span class="keyword">return</span> p;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>快速幂运算（反复平方法）  </p>
+<figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//计算：x^n % mod  </span></span><br><span class="line"><span class="keyword">int</span> mod_pow(<span class="keyword">int</span> x, <span class="keyword">int</span> n, <span class="keyword">int</span> <span class="keyword">mod</span>) &#123;</span><br><span class="line">	<span class="keyword">int</span> res = <span class="number">1</span>;  </span><br><span class="line">	<span class="keyword">while</span> (n &gt; <span class="number">0</span>) &#123;  </span><br><span class="line">		<span class="keyword">if</span> (n &amp; <span class="number">1</span>)  </span><br><span class="line">			res = res * x % <span class="keyword">mod</span>;  </span><br><span class="line">		x = x * x % <span class="keyword">mod</span>;  </span><br><span class="line">		n &gt;&gt; = <span class="number">1</span>;</span><br><span class="line">	&#125;  </span><br><span class="line">	<span class="keyword">return</span> res;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
 <hr>
-<h1 id="博客">博客</h1><p>我经常光顾的一些大牛博客，主要是android相关。  </p>
-<ul>
-<li><a href="http://www.stormzhang.com/" target="_blank" rel="external">stormzhang</a> - 在<a href="http://www.androiddevtools.cn/" target="_blank" rel="external">AndroidDevTools</a>上知道的  </li>
-<li><a href="http://elya.cc/" target="_blank" rel="external">elya</a> - 干货挺多  </li>
-<li><a href="http://blog.csdn.net/guolin_blog" target="_blank" rel="external">郭霖</a> - 《第一行代码——Android》的作者  </li>
-</ul>
-<hr>
-<h1 id="图片素材">图片素材</h1><p>有时候常常需要图片方面的素材，你如果百度“图片素材”你会发现那些个图片真是丑的不行······  </p>
-<ul>
-<li><a href="http://www.duitang.com/" target="_blank" rel="external">堆糖</a> - 分享收集生活中的美好，遇见世界上的另外一个你。  </li>
-<li><a href="https://dribbble.com/" target="_blank" rel="external">Dribbble</a> - Show and tell for designers（设计师必玩）  </li>
-<li><a href="https://www.behance.net/" target="_blank" rel="external">Behance</a> - 和Dribbble一样，提供高质量的设计作品  </li>
-</ul>
-<hr>
-<h1 id="视频学习">视频学习</h1><p>一些我用过的技术学习视频网站，评价是网站自带的标题，各有各的特点，不予点评···  </p>
-<ul>
-<li><a href="http://www.imooc.com/" target="_blank" rel="external">慕课网</a> - 国内最大的IT技能学习平台  </li>
-<li><a href="http://www.maiziedu.com/" target="_blank" rel="external">麦子学院</a> - 专业的IT在线职业教育平台  </li>
-<li><a href="http://www.jikexueyuan.com/" target="_blank" rel="external">极客学院</a> - 中国最大的IT职业在线教育平台  </li>
-</ul>
-<hr>
-<p>唉，o(︶︿︶)o 太忙了，一周没更新博客了。暂时只更新这些，以后发现了好的学习网站会记录的~~<br>ps：如果大家有好的学习网站，可以留言推荐给我！<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/bb_reel_6-6_dribbble.gif" alt="">  </p>
+<p>我总觉得要把静态博客玩成动态博客才有意思，所以我又无耻的从Dribbble拖了张动图，哈哈o(∩_∩)o。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/ff7_animation_dribbble.gif" alt="">  </p>
 <blockquote>
-<p>注：图片来自于<a href="https://dribbble.com/shots/2095826-Honey-Power?list=animated&amp;sort=comments&amp;timeframe=month&amp;offset=72" target="_blank" rel="external">Dribbble</a>。</p>
+<p>注：图片来自于<a href="https://dribbble.com/shots/2072784-Final-Fantasy-VII-Alternate-Timeline" target="_blank" rel="external">Dribbble</a>。</p>
 </blockquote>
 
       
@@ -396,7 +383,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/网站整理/"> #网站整理 </a>
+            <a href="/tags/算法/"> #算法 </a>
+          
+            <a href="/tags/蓝桥杯/"> #蓝桥杯 </a>
           
         </div>
       
@@ -405,13 +394,13 @@
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/06/18/蓝桥杯比赛算法总结/">蓝桥杯比赛算法总结</a>
+              <a href="/2015/06/24/play-hexo/">玩转hexo</a>
             
           </div>
 
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/05/30/关于博客/">关于博客</a>
+              <a href="/2015/06/08/sorting-learning-website/">整理的学习网站（不定期补充···）</a>
             
           </div>
         </div>
@@ -454,8 +443,8 @@
     
       <div class="comments" id="comments">
         
-          <div class="ds-thread" data-thread-key="2015/06/08/整理的学习网站/"
-               data-title="整理的学习网站（不定期补充···）" data-url="http://www.xuwenhui.net/2015/06/08/整理的学习网站/">
+          <div class="ds-thread" data-thread-key="2015/06/18/lanqiao-algorithm-summary/"
+               data-title="蓝桥杯比赛算法总结" data-url="http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/">
           </div>
         
       </div>
@@ -561,7 +550,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#IT网站"><span class="nav-number">1.</span> <span class="nav-text">IT网站</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#博客"><span class="nav-number">2.</span> <span class="nav-text">博客</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#图片素材"><span class="nav-number">3.</span> <span class="nav-text">图片素材</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#视频学习"><span class="nav-number">4.</span> <span class="nav-text">视频学习</span></a></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
