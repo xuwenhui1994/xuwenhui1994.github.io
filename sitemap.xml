@@ -2,28 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.xuwenhui.net/about/index.html</loc>
-    <lastmod>2015-06-24T08:51:29.914Z</lastmod>
+    <loc>http://www.xuwenhui.net/2015/07/01/android-summary/</loc>
+    <lastmod>2015-07-02T16:44:34.260Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.xuwenhui.net/2015/06/24/play-hexo/</loc>
-    <lastmod>2015-06-24T08:45:53.203Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2015-06-24T03:00:48.581Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.xuwenhui.net/2015/06/08/sorting-learning-website/</loc>
-    <lastmod>2015-06-24T02:59:55.205Z</lastmod>
+    <lastmod>2015-07-02T15:03:58.426Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/</loc>
-    <lastmod>2015-06-18T16:48:42.762Z</lastmod>
+    <lastmod>2015-07-02T15:03:42.930Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xuwenhui.net/2015/06/08/sorting-learning-website/</loc>
+    <lastmod>2015-07-02T15:03:17.990Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2015-07-02T15:02:41.492Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xuwenhui.net/about/index.html</loc>
+    <lastmod>2015-06-24T08:51:29.914Z</lastmod>
   </url>
   
   <url>

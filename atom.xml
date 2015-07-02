@@ -5,7 +5,7 @@
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net//"/>
-  <updated>2015-06-24T08:45:53.203Z</updated>
+  <updated>2015-07-02T16:44:34.260Z</updated>
   <id>http://www.xuwenhui.net//</id>
   
   <author>
@@ -16,11 +16,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[android基础知识总结]]></title>
+    <link href="http://www.xuwenhui.net/2015/07/01/android-summary/"/>
+    <id>http://www.xuwenhui.net/2015/07/01/android-summary/</id>
+    <published>2015-07-01T10:44:39.000Z</published>
+    <updated>2015-07-02T16:44:34.260Z</updated>
+    <content type="html"><![CDATA[<p><em>主要是学习了李刚老师的《Android疯狂讲义》总结的android基础知识。</em>  </p>
+<ol>
+<li><p>系统体系结构<br>由五部分组成：1.应用程序层 2.应用程序框架 3.函数库 4.Android运行时 5.Linux内核<br>一张图说明问题。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/android系统的体系结构图.jpg" alt="">  </p>
+</li>
+<li><p>四大组件<br>(1)Activity：为Android应用提供可视化的用户界面<br>(2)Service：为其他组件提供后台服务或监控其它组件的运行状态，通常后台运行，没有图形用户界面<br>(3)BroadcastReceiver：全局监听器，用于监听系统广播消息<br>(4)ContentProvider：跨应用的数据交换，与ContentResolver结合使用  </p>
+</li>
+<li><p>UI组件总结<br>一直苦于android“丰富”的UI组件，特此总结一番。<br>① 布局管理器<br>LinearLayout(线性布局)、TableLayout(表格布局)、FrameLayout(帧布局)、RelativeLayout(相对布局)、GridLayout(网格布局)、AbsoluteLayout(绝对布局)<br>② TextView及其子类<br>TextView(文本框)、EditText(编辑框)、Button(按钮)、CheckedTextView(检查的文本框)、RadioButton(单选按钮)、CheckBox(复选框)、ToggleButton(状态开关按钮)、Switch(开关)、AnalogClock(模拟时钟)、DigitalClock(数字时钟)、Chronometer(计时器)、AutoCompleteTextView(自动完成文本框)、MultiAutoCompleteTextView(允许输入多个提示项)、ExtractEditText(提供全屏输入法支持)<br>③ ImageView及其子类<br>ImageView(图片框)、ImageButton(图片按钮)、ZoomButton(“放大”或“缩小”按钮，ZoomControls提供“放大”“缩小”组合按钮)、QuickContactBadge(显示关联到指定联系人的图片)<br>④ AdapterView及其子类<br>AdapterView、AbsListView、AbsSpinner、AdapterViewAnimator(均为抽象类)、ListView(列表视图、一列)、GridView(网格视图、多列)、ExpandableListView(可展开的列表组件)、Spinner(下拉列表选择框、垂直)、Gallery(画廊视图、水平的列表选择框)、AdapterViewFlipper(带有自动播放、渐影渐显效果)、StackView(堆叠的图片)<br>⑤ ProgressBar及其子类<br>ProgressBar(进度条)、SeekBar(拖动条)、RatingBar(星级评分条)<br>⑥ ViewAnimator及其子类<br>ViewAnimator(增加动画效果)、ViewSwitcher(视图切换)、ImageSwitcher(图像切换器)、TextSwitcher(文本切换器)、ViewFlipper(类似于AdapterViewFlipper)<br>⑦ 杂项<br>Toast(提示信息)、CalendarView(日历视图)、DatePicker(日期选择器)、TimePicker(时间选择器)、NumberPicker(数值选择器)、SearchView(搜索框)、TabHost(选项条)、ScrollView(滚动视图)、HorizontolScrollView(水平滚动条)、Notification(状态通知)<br>⑧ 对话框<br>AlertDialog(对话框)、ProgressDialog(进度对话框)、DatePickerDialog(日期选择对话框)、TimePickerDialog(时间选择对话框)、PopupWindow(对话框风格的窗口)  </p>
+</li>
+</ol>
+<p>图片是eclipse下View类的继承关系（快捷键Ctrl+T，android版本为4.4.2）的截图。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/View类的继承关系图.jpg" alt="">  </p>
+<ol>
+<li>待续。。。  </li>
+</ol>
+<p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[以“一问一答”的形式总结记录自己在android学习过程中的重要知识点，让知识更清晰，便于记忆与理解，也有助于以后各种android相关的笔试、面试。]]>
+    
+    </summary>
+    
+      <category term="android" scheme="http://www.xuwenhui.net/tags/android/"/>
+    
+      <category term="android" scheme="http://www.xuwenhui.net/categories/android/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[玩转hexo]]></title>
     <link href="http://www.xuwenhui.net/2015/06/24/play-hexo/"/>
     <id>http://www.xuwenhui.net/2015/06/24/play-hexo/</id>
     <published>2015-06-24T03:01:55.000Z</published>
-    <updated>2015-06-24T08:45:53.203Z</updated>
+    <updated>2015-07-02T15:03:58.426Z</updated>
     <content type="html"><![CDATA[<p><em>我一直觉得，把静态博客玩转成动态博客，才有意思。</em><br>还好，如今的互联网是如此开放与便利，这些都不是事儿，只要你敢想~~  </p>
 <hr>
 <h1 id="音乐播放器">音乐播放器</h1><hr>
@@ -57,8 +89,9 @@
 <p>推荐的图片资源网站,见相关博客：<a href="http://www.xuwenhui.net/2015/06/08/%E6%95%B4%E7%90%86%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/">整理的学习网站（不定期补充···）</a>  </p>
 <p><img src="http://7xjda2.com1.z0.glb.clouddn.com/heytvm_overrated.gif" alt="">  </p>
 <blockquote>
-<p>注：图片来自于<a href="https://dribbble.com/shots/2116166-Keep-it-together" target="_blank" rel="external">Dribbble</a>。</p>
+<p>注：图片来自于<a href="https://dribbble.com/shots/2116166-Keep-it-together" target="_blank" rel="external">Dribbble</a>。  </p>
 </blockquote>
+<p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
     <![CDATA[最近浏览了一些基于hexo的博客，发现了许许多多好玩的东西，故收藏整理之，教你玩转hexo！！！]]>
@@ -76,7 +109,7 @@
     <link href="http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/"/>
     <id>http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/</id>
     <published>2015-06-18T14:35:24.000Z</published>
-    <updated>2015-06-18T16:48:42.762Z</updated>
+    <updated>2015-07-02T15:03:42.930Z</updated>
     <content type="html"><![CDATA[<ol>
 <li><p>斐波那契（记忆化搜索）  </p>
 <figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">int memo[MAX_N + 1];  </span><br><span class="line">int fib(int <span class="keyword">n</span>) &#123;  </span><br><span class="line">	<span class="keyword">if</span> (<span class="keyword">n</span> &lt;= 1) <span class="keyword">return</span> <span class="keyword">n</span>;  </span><br><span class="line">	<span class="keyword">if</span> (memo[<span class="keyword">n</span>] != 0) <span class="keyword">return</span> memo[<span class="keyword">n</span>];  </span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> memo[<span class="keyword">n</span>] = fib(<span class="keyword">n</span>-1) + fib(<span class="keyword">n</span>-2);  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -97,8 +130,9 @@
 <hr>
 <p>我总觉得要把静态博客玩成动态博客才有意思，所以我又无耻的从Dribbble拖了张动图，哈哈o(∩_∩)o。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/ff7_animation_dribbble.gif" alt="">  </p>
 <blockquote>
-<p>注：图片来自于<a href="https://dribbble.com/shots/2072784-Final-Fantasy-VII-Alternate-Timeline" target="_blank" rel="external">Dribbble</a>。</p>
+<p>注：图片来自于<a href="https://dribbble.com/shots/2072784-Final-Fantasy-VII-Alternate-Timeline" target="_blank" rel="external">Dribbble</a>。  </p>
 </blockquote>
+<p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
     <![CDATA[今天突然想把我自己在蓝桥杯比赛时准备的一些算法记录下来，以便翻阅。]]>
@@ -118,7 +152,7 @@
     <link href="http://www.xuwenhui.net/2015/06/08/sorting-learning-website/"/>
     <id>http://www.xuwenhui.net/2015/06/08/sorting-learning-website/</id>
     <published>2015-06-08T02:00:26.000Z</published>
-    <updated>2015-06-24T02:59:55.205Z</updated>
+    <updated>2015-07-02T15:03:17.990Z</updated>
     <content type="html"><![CDATA[<h1 id="IT网站">IT网站</h1><p>各种十分好用的IT网站。  </p>
 <ul>
 <li><a href="https://github.com/" target="_blank" rel="external">GitHub</a> - 全球知名的代码托管平台  </li>
@@ -152,8 +186,9 @@
 <hr>
 <p>唉，o(︶︿︶)o 太忙了，一周没更新博客了。暂时只更新这些，以后发现了好的学习网站会记录的~~<br>ps：如果大家有好的学习网站，可以留言推荐给我！<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/bb_reel_6-6_dribbble.gif" alt="">  </p>
 <blockquote>
-<p>注：图片来自于<a href="https://dribbble.com/shots/2095826-Honey-Power?list=animated&amp;sort=comments&amp;timeframe=month&amp;offset=72" target="_blank" rel="external">Dribbble</a>。</p>
+<p>注：图片来自于<a href="https://dribbble.com/shots/2095826-Honey-Power?list=animated&amp;sort=comments&amp;timeframe=month&amp;offset=72" target="_blank" rel="external">Dribbble</a>。  </p>
 </blockquote>
+<p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
     <![CDATA[整理一些自己觉得实用的网站，主要是和技术相关。]]>
@@ -171,7 +206,7 @@
     <link href="http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
     <id>http://www.xuwenhui.net/2015/05/30/关于博客/</id>
     <published>2015-05-30T07:53:25.000Z</published>
-    <updated>2015-06-24T03:00:48.581Z</updated>
+    <updated>2015-07-02T15:02:41.492Z</updated>
     <content type="html"><![CDATA[<p><em>花了几天时间，终于成功搭建了我的独立博客~~~喜o(∩_∩)o</em></p>
 <h1 id="感谢在前">感谢在前</h1><hr>
 <p>我的博客的搭建主要是参考了<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/" target="_blank" rel="external">这篇博客</a>的内容，文章写的很好，过程相当清楚，十分感谢作者的辛勤付出！  </p>
@@ -212,7 +247,8 @@
 </blockquote>
 <p>此处盗图一张：</p>
 <p><img src="http://7xjda2.com1.z0.glb.clouddn.com/小米招聘.jpg" alt=""></p>
-<p><em>注：欢迎为本网站指出问题，我将及时解决。</em></p>
+<p><em>注：欢迎为本网站指出问题，我将及时解决。</em>  </p>
+<p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
     <![CDATA[主要说明我在博客的搭建过程中的总结与感受，欢迎留言，欢迎交流。]]>
