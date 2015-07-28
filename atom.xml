@@ -5,7 +5,7 @@
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net//"/>
-  <updated>2015-07-28T14:14:00.194Z</updated>
+  <updated>2015-07-28T14:36:53.880Z</updated>
   <id>http://www.xuwenhui.net//</id>
   
   <author>
@@ -20,12 +20,11 @@
     <link href="http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/"/>
     <id>http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/</id>
     <published>2015-07-28T11:41:16.000Z</published>
-    <updated>2015-07-28T14:14:00.194Z</updated>
+    <updated>2015-07-28T14:36:53.880Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>What is the single most influential book every programmer should read?  </p>
 </blockquote>
-<p>这是一个在<a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read?page=1&amp;tab=votes#tab-top" target="_blank" rel="external">stackoverflow</a>上的问题，借此问题，也就衍生出了许许多多关于程序员必读的一些经典书籍的书单。<br>这里我再参考一些其他的程序员必读书单，如下：<br>（1）<a href="http://bestcbooks.com/recommend/most-influential-book/" target="_blank" rel="external">程序员必读书籍——计算机书籍控</a> - 网站还提供各种计算机类的书籍PDF下载，分类整理的还不错<br>（2）<a href="http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html" target="_blank" rel="external">一个合格的程序员应该读过哪些书</a> - 这是关于stackoverflow那个问题的中文版整理<br>（3）<a href="https://github.com/vhf/free-programming-books" target="_blank" rel="external">vhf/free-programming-books</a> - github上一个流行的编程书签索引，里面也有中文版的<br>由此总结收录如下：</p>
-<h1 id="程序员必读经典书籍Top20：">程序员必读经典书籍Top20：</h1><p><em>每本书的链接均指向豆瓣读书，百度网盘下载:<a href="http://pan.baidu.com/s/1c0fhORm" target="_blank" rel="external">链接</a> 密码：jo3l</em><br><em>注：不要迷信排行榜，自己感兴趣和个人方向相关的书籍就可以拿来阅读~~</em>  </p>
+<p>这是一个在<a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read?page=1&amp;tab=votes#tab-top" target="_blank" rel="external">stackoverflow</a>上的问题，借此问题，也就衍生出了许许多多关于程序员必读的一些经典书籍的书单。<br>这里我还参考了一些其他的程序员必读书单，如下：<br>（1）<a href="http://bestcbooks.com/recommend/most-influential-book/" target="_blank" rel="external">程序员必读书籍——计算机书籍控</a> - 网站还提供各种计算机类的书籍PDF下载，分类整理的还不错<br>（2）<a href="http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html" target="_blank" rel="external">一个合格的程序员应该读过哪些书</a> - 这是关于stackoverflow那个问题的中文版整理<br>（3）<a href="https://github.com/vhf/free-programming-books" target="_blank" rel="external">vhf/free-programming-books</a> - github上一个流行的编程书签索引，里面也有中文版的<br>由此总结收录如下：<br><strong>程序员必读经典书籍Top20：</strong><br><em>每本书的链接均指向豆瓣读书。<a href="链接: http://pan.baidu.com/s/1ntswGS5">百度网盘下载链接</a> 密码: cy8a</em><br><em>注：不要迷信排行榜，自己感兴趣和个人方向相关的书籍就可以拿来阅读~~</em>  </p>
 <ol>
 <li><a href="http://book.douban.com/subject/1477390/" target="_blank" rel="external">代码大全（Code Complete）</a>  </li>
 <li><a href="http://book.douban.com/subject/5387402/" target="_blank" rel="external">程序员修炼之道：从小工到专家（The Pragmatic Programmer: From Journeyman to Master）</a>  </li>
