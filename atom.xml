@@ -5,7 +5,7 @@
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net//"/>
-  <updated>2015-07-21T04:46:32.016Z</updated>
+  <updated>2015-07-28T14:14:00.194Z</updated>
   <id>http://www.xuwenhui.net//</id>
   
   <author>
@@ -14,6 +14,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[程序员必读经典书籍Top20]]></title>
+    <link href="http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/"/>
+    <id>http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/</id>
+    <published>2015-07-28T11:41:16.000Z</published>
+    <updated>2015-07-28T14:14:00.194Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>What is the single most influential book every programmer should read?  </p>
+</blockquote>
+<p>这是一个在<a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read?page=1&amp;tab=votes#tab-top" target="_blank" rel="external">stackoverflow</a>上的问题，借此问题，也就衍生出了许许多多关于程序员必读的一些经典书籍的书单。<br>这里我再参考一些其他的程序员必读书单，如下：<br>（1）<a href="http://bestcbooks.com/recommend/most-influential-book/" target="_blank" rel="external">程序员必读书籍——计算机书籍控</a> - 网站还提供各种计算机类的书籍PDF下载，分类整理的还不错<br>（2）<a href="http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html" target="_blank" rel="external">一个合格的程序员应该读过哪些书</a> - 这是关于stackoverflow那个问题的中文版整理<br>（3）<a href="https://github.com/vhf/free-programming-books" target="_blank" rel="external">vhf/free-programming-books</a> - github上一个流行的编程书签索引，里面也有中文版的<br>由此总结收录如下：</p>
+<h1 id="程序员必读经典书籍Top20：">程序员必读经典书籍Top20：</h1><p><em>每本书的链接均指向豆瓣读书，百度网盘下载:<a href="http://pan.baidu.com/s/1c0fhORm" target="_blank" rel="external">链接</a> 密码：jo3l</em><br><em>注：不要迷信排行榜，自己感兴趣和个人方向相关的书籍就可以拿来阅读~~</em>  </p>
+<ol>
+<li><a href="http://book.douban.com/subject/1477390/" target="_blank" rel="external">代码大全（Code Complete）</a>  </li>
+<li><a href="http://book.douban.com/subject/5387402/" target="_blank" rel="external">程序员修炼之道：从小工到专家（The Pragmatic Programmer: From Journeyman to Master）</a>  </li>
+<li><a href="http://book.douban.com/subject/1148282/" target="_blank" rel="external">计算机程序的构造和解释（Structure and Interpretation of Computer Programs）</a>  </li>
+<li><a href="http://book.douban.com/subject/1139336/" target="_blank" rel="external">C程序设计语言（The C Programming Language）</a>  </li>
+<li><a href="http://book.douban.com/subject/20432061/" target="_blank" rel="external">算法导论（原书第3版）（Introduction to Algorithms, Third Edition）</a>  </li>
+<li><a href="http://book.douban.com/subject/1052241/" target="_blank" rel="external">设计模式：可复用面向对象软件的基础（Design Patterns: Elements of Reusable Object-Oriented Software）</a>  </li>
+<li><a href="http://book.douban.com/subject/4262627/" target="_blank" rel="external">重构：改善既有代码的设计（Refactoring: Improving the Design of Existing Code）</a>  </li>
+<li><a href="http://book.douban.com/subject/1102259/" target="_blank" rel="external">人月神话（The Mythical Man Month）</a>  </li>
+<li><a href="http://book.douban.com/subject/1247361/" target="_blank" rel="external">计算机程序设计艺术（The Art of Computer Programming） </a>  </li>
+<li><a href="http://book.douban.com/subject/3296317/" target="_blank" rel="external">龙书 编译原理（Compilers: Principles, Techniques and Tools）</a>  </li>
+<li><a href="http://book.douban.com/subject/1291204/" target="_blank" rel="external">哥德尔、艾舍尔、巴赫：集异璧之大成（Gödel, Escher, Bach: An Eternal Golden Braid）</a>  </li>
+<li><a href="http://book.douban.com/subject/4199741/" target="_blank" rel="external">代码整洁之道（Clean Code A Handbook of Agile Software Craftsmanship）</a>  </li>
+<li><a href="http://book.douban.com/subject/1842426/" target="_blank" rel="external">Effective C++：改善程序与设计的55个具体做法</a>  </li>
+<li><a href="http://book.douban.com/subject/5908727/" target="_blank" rel="external">More Effective C++:35个改善编程与设计的有效方法</a>  </li>
+<li><a href="http://book.douban.com/subject/1024570/" target="_blank" rel="external">编码的奥秘（Code: The Hidden Language of Computer Hardware and Software）</a>  </li>
+<li><a href="http://book.douban.com/subject/3227098/" target="_blank" rel="external">编程珠玑（Programming Pearls）</a>  </li>
+<li><a href="http://book.douban.com/subject/2248759/" target="_blank" rel="external">修改代码的艺术（Working Effectively with Legacy Code）</a>  </li>
+<li><a href="http://book.douban.com/subject/1108725/" target="_blank" rel="external">人件（Peopleware）</a>  </li>
+<li><a href="http://book.douban.com/subject/5355285/" target="_blank" rel="external">编程人生（Coders at Work）</a>  </li>
+<li><a href="http://book.douban.com/subject/19989296/" target="_blank" rel="external">别逗了，费曼先生（Surely You’re Joking, Mr. Feynman!）</a>  </li>
+</ol>
+<hr>
+<p>好久没更博了~~好吧，我保证以后尽量每周更新，第一篇心情日志也要计划开写了···<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/cat-and-dog-drib-3.gif" alt="">  </p>
+<blockquote>
+<p>注：图片来自于<a href="https://dribbble.com/shots/2157574-BFF-s" target="_blank" rel="external">Dribbble</a>。  </p>
+</blockquote>
+<p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[What is the single most influential book every programmer should read?]]>
+    
+    </summary>
+    
+      <category term="图书" scheme="http://www.xuwenhui.net/tags/%E5%9B%BE%E4%B9%A6/"/>
+    
+      <category term="图书" scheme="http://www.xuwenhui.net/categories/%E5%9B%BE%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Android 基础知识总结]]></title>
@@ -165,7 +216,7 @@
     <link href="http://www.xuwenhui.net/2015/06/08/sorting-learning-website/"/>
     <id>http://www.xuwenhui.net/2015/06/08/sorting-learning-website/</id>
     <published>2015-06-08T02:00:26.000Z</published>
-    <updated>2015-07-27T13:10:19.306Z</updated>
+    <updated>2015-07-28T13:03:30.699Z</updated>
     <content type="html"><![CDATA[<h1 id="IT网站">IT网站</h1><p>各种十分好用的IT网站。  </p>
 <ul>
 <li><a href="https://github.com/" target="_blank" rel="external">GitHub</a> - 全球知名的代码托管平台  </li>
@@ -184,7 +235,6 @@
 <li><a href="http://www.stormzhang.com/" target="_blank" rel="external">stormzhang</a> - 在<a href="http://www.androiddevtools.cn/" target="_blank" rel="external">AndroidDevTools</a>上知道的  </li>
 <li><a href="http://elya.cc/" target="_blank" rel="external">elya</a> - 干货挺多  </li>
 <li><a href="http://blog.csdn.net/guolin_blog" target="_blank" rel="external">郭霖</a> - 《第一行代码——Android》的作者  </li>
-<li><a href="http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html" target="_blank" rel="external">一个合格的程序员应该读过哪些书 - justjavac(迷渡)</a> - 程序员必读书籍！！！  </li>
 </ul>
 <hr>
 <h1 id="图片素材">图片素材</h1><p>有时候常常需要图片方面的素材，你如果百度“图片素材”你会发现那些个图片真是丑的不行······  </p>
