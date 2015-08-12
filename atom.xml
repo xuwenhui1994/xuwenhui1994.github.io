@@ -5,7 +5,7 @@
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net//"/>
-  <updated>2015-08-12T07:26:33.629Z</updated>
+  <updated>2015-08-12T11:32:16.655Z</updated>
   <id>http://www.xuwenhui.net//</id>
   
   <author>
@@ -16,14 +16,65 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[收录的计算机术语（不定期补充···）]]></title>
+    <link href="http://www.xuwenhui.net/2015/08/12/computer-terms/"/>
+    <id>http://www.xuwenhui.net/2015/08/12/computer-terms/</id>
+    <published>2015-08-12T10:45:24.000Z</published>
+    <updated>2015-08-12T11:32:16.655Z</updated>
+    <content type="html"><![CDATA[<p><em>注：排名不分先后，仅按时间顺序~~  </em></p>
+<ul>
+<li>HTML —— HyperText Markup Language （超文本标记语言）  </li>
+<li>CSS —— Cascading Style Sheets （层叠样式表）  </li>
+<li>JavaScript —— （脚本语言）  </li>
+<li>XML —— Extensible Markup Language （可扩展的标记语言）  </li>
+<li>Ajax —— Asynchronous JavaScript and XML （异步 JavaScript 和 XML）  </li>
+<li>SQL —— Structured Query Language （结构化查询语言）  </li>
+<li>JDBC —— Java Database Connectivity （Java 数据库连接）  </li>
+<li>Asp —— Active Server Pages （动态服务器页面）  </li>
+<li>PHP —— Hypertext Proprocessor （超文本预处理器）  </li>
+<li>JSP —— Java Server Pages （Java 服务器页面）  </li>
+<li>W3C —— World Wide Web Consortium （万维网联盟）  </li>
+<li>DAO —— Data Acess Object （数据访问对象）  </li>
+<li>MVC —— Model View Controller （模型-视图-控制器）  </li>
+<li>ORM —— Object Relational Mapping （对象关系映射）  </li>
+<li>IoC —— Inversion of Control （控制反转）  </li>
+<li>AOP —— Aspect Oriented Programming （面向切面编程）  </li>
+<li>AWT —— Abstract Window Toolkit （抽象窗口工具包）  </li>
+<li>DOM —— Document Object Model （文档对象模型）  </li>
+<li>SOAP —— Simple Object Access Protocol （简单对象访问协议）  </li>
+<li>WSDL —— Web Service Description Language （Web Service 描述语言）  </li>
+<li>UDDI —— Universal Description Discovery and Integrity （通用描述、发现与集成服务）  </li>
+<li>RMI —— Remote Method Invocation （远程方法调用）  </li>
+<li>NDK —— Native Development Kit （原生开发包）  </li>
+<li>···  </li>
+</ul>
+<hr>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/Raid%20Run-dribbble.gif" alt="">  </p>
+<blockquote>
+<p>注：图片来自于<a href="https://dribbble.com/shots/2121360-Raid-Run" target="_blank" rel="external">Dribbble</a>。  </p>
+</blockquote>
+<p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[有感于自己糟糕的英语，收录一些计算机方面的术语，时不时可以翻阅一下。]]>
+    
+    </summary>
+    
+      <category term="computer terms" scheme="http://www.xuwenhui.net/tags/computer-terms/"/>
+    
+      <category term="computer terms" scheme="http://www.xuwenhui.net/categories/computer-terms/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Android 使用 Web Service 进行网络编程]]></title>
     <link href="http://www.xuwenhui.net/2015/08/12/android-webservice/"/>
     <id>http://www.xuwenhui.net/2015/08/12/android-webservice/</id>
     <published>2015-08-12T02:49:59.000Z</published>
-    <updated>2015-08-12T07:26:33.629Z</updated>
+    <updated>2015-08-12T11:21:50.592Z</updated>
     <content type="html"><![CDATA[<h1 id="认识_Web_Service">认识 Web Service</h1><p>刚开始听说这个项目与后台进行通讯是用 Web Service 的时候，我其实是感到了一些困难，毕竟没用过，只在那本《疯狂 Android 讲义》中看到过，对它的印象就是有一些复杂的协议、可以调用一些“天气接口”，然后就可以看到各种城市的天气状况，总之，就是后台做好了一些东西，你拿来直接展示到客户端。<br>现在看来，还没有那么简单，于是，我又好好的学习了一下 Web Service，知识点如下：</p>
 <ol>
-<li>Web Service 平台主要涉及的技术有：SOAP(Simple Object Access Protocol, 简单对象访问协议)、WSDL（Web Service Description Language, Web Service 描述语言）、UDDI(Universal Description, Description and Integration, 统一描述、发现和整合协议)。  </li>
+<li>Web Service 平台主要涉及的技术有：SOAP(Simple Object Access Protocol, 简单对象访问协议)、WSDL（Web Service Description Language, Web Service 描述语言）、UDDI(Universal Description Discovery and Integration, 通用描述、发现与集成服务)。  </li>
 <li>一条 SOAP 消息就是一份特定的 XML 文档，SOAP 就是规定了 XML 文档该如何写，如：根元素为 “Envelop”,两个子元素为 “Header”(可选)、“Body”（必选）。  </li>
 <li>上面 Body 元素中存放的 SOAP 消息的主体就该按照 WSDL 所规范的格式来写。主要就是访问和使用 Web Service 所必须的信息。  </li>
 <li>UDDI 是一种目录服务，通过它，企业可注册并搜索 Web Service。  </li>
@@ -46,6 +97,8 @@
     </summary>
     
       <category term="android" scheme="http://www.xuwenhui.net/tags/android/"/>
+    
+      <category term="webservice" scheme="http://www.xuwenhui.net/tags/webservice/"/>
     
       <category term="android" scheme="http://www.xuwenhui.net/categories/android/"/>
     
