@@ -376,11 +376,7 @@
 <figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">//简单用法：从一个网络<span class="type">URL</span>获取字符串数据  </span><br><span class="line"><span class="type">String</span> url = <span class="string">"http://zyfree.acman.cn/"</span>;  </span><br><span class="line"><span class="type">HttpClient</span> client = new <span class="type">DefaultHttpClient</span>();  </span><br><span class="line"><span class="type">HttpGet</span> get = new <span class="type">HttpGet</span>(url);  </span><br><span class="line"><span class="keyword">try</span> &#123;  </span><br><span class="line">	<span class="type">HttpResponse</span> response = client.execute(get);  </span><br><span class="line">	<span class="type">HttpEntity</span> entity = response.getEntity();  </span><br><span class="line">	<span class="type">String</span> <span class="literal">result</span> = <span class="type">EntityUtils</span>.toString(entity);  </span><br><span class="line">&#125; catch (<span class="type">Exception</span> e) &#123;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<hr>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/01_egypt_dribbble.gif" alt="">  </p>
-<blockquote>
-<p>注：图片来自于<a href="https://dribbble.com/shots/2146710-Egypt-emoG" target="_blank" rel="external">Dribbble</a>。  </p>
-</blockquote>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/01_egypt_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2146710-Egypt-emoG" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 
       
