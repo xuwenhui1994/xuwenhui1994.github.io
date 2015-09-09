@@ -5,7 +5,7 @@
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net//"/>
-  <updated>2015-08-13T01:10:14.238Z</updated>
+  <updated>2015-09-09T12:44:39.825Z</updated>
   <id>http://www.xuwenhui.net//</id>
   
   <author>
@@ -16,11 +16,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[WiFi ADB + Vysor 打造超棒的 Android 真机调试体验]]></title>
+    <link href="http://www.xuwenhui.net/2015/09/09/WiFi%20ADB-and-%20Vysor/"/>
+    <id>http://www.xuwenhui.net/2015/09/09/WiFi ADB-and- Vysor/</id>
+    <published>2015-09-09T09:12:02.000Z</published>
+    <updated>2015-09-09T12:44:39.825Z</updated>
+    <content type="html"><![CDATA[<h1 id="准备工作">准备工作</h1><p>在开始上手之前，你需要准备下面的两样工具：  </p>
+<ol>
+<li><p>WiFi ADB —— 一款APP<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/WiFi%20ADB.png" alt=""><br>获取方法：可以去百度搜索下载该 APP，我是在豌豆荚找到的。<br>作用：通过 WiFi 来连接 ADB，从此免去数据线的烦恼（前提是：电脑和手机在同一网络下，且手机已 root，即该APP必须获得 root 权限）。  </p>
+</li>
+<li><p>Vysor —— 一款Chrome插件<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/Vysor.png" alt=""><br>获取方法：Chrome 应用商店搜索下载（需FQ）或者网上找离线包下载安装。<br>作用：真正用电脑来控制真机操作，实时投影，两边同时响应操作变化，双向操作，最赞的一点是完全鼠标控制（左键代表手势，右键代表返回，中键代表回到主界面）。  </p>
+</li>
+</ol>
+<h1 id="开始上手">开始上手</h1><ol>
+<li>将手机与电脑处于同一网络下。  </li>
+<li>打开手机 WiFi ADB ，并拨动开关。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/Screenshot_2015-09-09-19-36-19.png" alt="">  </li>
+<li>运行 CMD 命令行程序，建立 ADB 连接（此处需要将 adb.exe 设置为系统环境变量），IP 输入当前所在网络的地址，即上图显示的地址，出现下图的结果即代表连接成功。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/QQ截图20150909193948.png" alt="">  </li>
+<li>运行 Vysor，选择当前已建立连接的手机。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/QQ截图20150909195028.png" alt=""><br><img src="http://7xjda2.com1.z0.glb.clouddn.com/QQ截图20150909195055.png" alt=""></li>
+<li>到此，所有工作都已完毕，你可以随心所欲的操作手机，调试你在 Android Studio 或者是 Eclipse 下写的 Android 项目了。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/GIF20150909204320.gif" alt=""><br>就是这么畅快，一切和用数据线连接真机，操作真机一样~~  </li>
+</ol>
+<h1 id="参考文章">参考文章</h1><p><a href="http://www.jianshu.com/p/8476b829f3d1" target="_blank" rel="external">Vysor让你在电脑上完全控制android手机屏幕镜像</a><br><a href="http://www.jianshu.com/p/8be491372397" target="_blank" rel="external">Vysor 情怀玩法 （番外篇）</a>  </p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/google_motion_system.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2229911-Google-Brand-System-Motion" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+<p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[一直苦恼于 Android Studio + Genymotion 对内存极大的消耗，常常导致电脑内存消耗殆尽，于是只能使用真机调试，可有时又会遇到没带数据线的尴尬，或者是萌生出在电脑上实时操控真机的想法，偶然在网络上get到了一个新技能，最终完美解决。]]>
+    
+    </summary>
+    
+      <category term="android" scheme="http://www.xuwenhui.net/tags/android/"/>
+    
+      <category term="android" scheme="http://www.xuwenhui.net/categories/android/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[收录的计算机术语（不定期补充···）]]></title>
     <link href="http://www.xuwenhui.net/2015/08/12/computer-terms/"/>
     <id>http://www.xuwenhui.net/2015/08/12/computer-terms/</id>
     <published>2015-08-12T10:45:24.000Z</published>
-    <updated>2015-08-13T01:10:14.238Z</updated>
+    <updated>2015-09-09T09:08:25.554Z</updated>
     <content type="html"><![CDATA[<p><em>注：排名不分先后，仅按时间顺序~~  </em></p>
 <ul>
 <li>HTML —— HyperText Markup Language （超文本标记语言）  </li>
@@ -57,6 +92,8 @@
     </summary>
     
       <category term="computer terms" scheme="http://www.xuwenhui.net/tags/computer-terms/"/>
+    
+      <category term="不定期补充···" scheme="http://www.xuwenhui.net/tags/%E4%B8%8D%E5%AE%9A%E6%9C%9F%E8%A1%A5%E5%85%85%C2%B7%C2%B7%C2%B7/"/>
     
       <category term="computer terms" scheme="http://www.xuwenhui.net/categories/computer-terms/"/>
     
@@ -281,7 +318,7 @@
     <link href="http://www.xuwenhui.net/2015/06/08/sorting-learning-website/"/>
     <id>http://www.xuwenhui.net/2015/06/08/sorting-learning-website/</id>
     <published>2015-06-08T02:00:26.000Z</published>
-    <updated>2015-08-13T01:14:22.035Z</updated>
+    <updated>2015-09-09T09:09:10.147Z</updated>
     <content type="html"><![CDATA[<h1 id="IT网站">IT网站</h1><p>各种十分好用的IT网站。  </p>
 <ul>
 <li><a href="https://github.com/" target="_blank" rel="external">GitHub</a> - 全球知名的代码托管平台  </li>
@@ -320,6 +357,8 @@
     <![CDATA[整理一些自己觉得实用的网站，主要是和技术相关。]]>
     
     </summary>
+    
+      <category term="不定期补充···" scheme="http://www.xuwenhui.net/tags/%E4%B8%8D%E5%AE%9A%E6%9C%9F%E8%A1%A5%E5%85%85%C2%B7%C2%B7%C2%B7/"/>
     
       <category term="网站整理" scheme="http://www.xuwenhui.net/tags/%E7%BD%91%E7%AB%99%E6%95%B4%E7%90%86/"/>
     
