@@ -2,8 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xuwenhui.net/2015/08/12/computer-terms/</loc>
+    <lastmod>2015-09-14T03:23:38.054Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.xuwenhui.net/2015/06/08/sorting-learning-website/</loc>
-    <lastmod>2015-09-10T03:33:00.560Z</lastmod>
+    <lastmod>2015-09-14T02:58:13.029Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/</loc>
+    <lastmod>2015-09-14T02:55:55.704Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/</loc>
+    <lastmod>2015-09-14T02:54:37.703Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2015-09-14T02:52:14.937Z</lastmod>
   </url>
   
   <url>
@@ -17,23 +37,8 @@
   </url>
   
   <url>
-    <loc>http://www.xuwenhui.net/2015/08/12/computer-terms/</loc>
-    <lastmod>2015-09-09T09:08:25.554Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/</loc>
-    <lastmod>2015-08-13T01:17:34.178Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.xuwenhui.net/2015/06/24/play-hexo/</loc>
     <lastmod>2015-08-13T01:17:03.487Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/</loc>
-    <lastmod>2015-08-13T01:14:15.134Z</lastmod>
   </url>
   
   <url>
@@ -44,11 +49,6 @@
   <url>
     <loc>http://www.xuwenhui.net/2015/08/12/android-webservice/</loc>
     <lastmod>2015-08-13T01:11:13.553Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2015-07-03T09:42:40.276Z</lastmod>
   </url>
   
   <url>
