@@ -5,7 +5,7 @@
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net//"/>
-  <updated>2015-09-17T08:52:54.053Z</updated>
+  <updated>2015-09-17T13:01:40.264Z</updated>
   <id>http://www.xuwenhui.net//</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[《Java 编程思想》- 读书笔记（连载中···）]]></title>
+    <title><![CDATA[《Java 编程思想》- 读书笔记]]></title>
     <link href="http://www.xuwenhui.net/2015/09/14/%E3%80%8AThinking-in-Java%E3%80%8B-reading-notes/"/>
     <id>http://www.xuwenhui.net/2015/09/14/《Thinking-in-Java》-reading-notes/</id>
     <published>2015-09-14T15:37:15.000Z</published>
-    <updated>2015-09-17T08:52:54.053Z</updated>
+    <updated>2015-09-17T13:01:40.264Z</updated>
     <content type="html"><![CDATA[<h1 id="1-_对象导论">1. 对象导论</h1><ul>
 <li>has-a —— 组合，is-a —— 继承。  </li>
 <li>所有可以发送给基类对象的消息同时也可以发送给导出类对象，即导出类与基类具有相同的类型、等价性。  </li>
