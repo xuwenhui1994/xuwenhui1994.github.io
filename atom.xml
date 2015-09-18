@@ -5,7 +5,7 @@
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net//"/>
-  <updated>2015-09-17T13:01:40.264Z</updated>
+  <updated>2015-09-18T16:47:56.323Z</updated>
   <id>http://www.xuwenhui.net//</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.xuwenhui.net/2015/09/14/%E3%80%8AThinking-in-Java%E3%80%8B-reading-notes/"/>
     <id>http://www.xuwenhui.net/2015/09/14/《Thinking-in-Java》-reading-notes/</id>
     <published>2015-09-14T15:37:15.000Z</published>
-    <updated>2015-09-17T13:01:40.264Z</updated>
+    <updated>2015-09-18T16:47:56.323Z</updated>
     <content type="html"><![CDATA[<h1 id="1-_对象导论">1. 对象导论</h1><ul>
 <li>has-a —— 组合，is-a —— 继承。  </li>
 <li>所有可以发送给基类对象的消息同时也可以发送给导出类对象，即导出类与基类具有相同的类型、等价性。  </li>
@@ -88,11 +88,25 @@
 <li>每个内部类都能独立地继承自一个（接口的）实现，所以无论外围类是否已经继承了某个（接口的）实现，对于内部类都没有影响。  </li>
 <li>内部类生成的 .class 文件的命名规则：外围类的名字，加上 “$”，再加上内部类的名字。（如果是匿名内部类，编译器会简单地产生一个数字作为其标识符）  </li>
 </ul>
-<h1 id="11-_···">11. ···</h1><p><img src="http://7xjda2.com1.z0.glb.clouddn.com/night_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/1746509-Queen-s-Room" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+<h1 id="11-_持有对象">11. 持有对象</h1><ul>
+<li>System.out.print(c)；（c为某个类的对象）该方法将打印类名，后面跟随该对象的散列码的无符号十六进制表示（这个散列码是通过 hashCode() 方法产生的）。  </li>
+<li>迭代器通常被称为轻量级对象：创建它的代价小。  </li>
+<li>Iterato 的真正威力：能够将遍历序列的操作与序列底层的结构分离。或者说，迭代器统一了对容器的访问方式。  </li>
+<li>四种容器：Map、List、Set 和 Queue。<img src="http://7xjda2.com1.z0.glb.clouddn.com/简单的容器分类.jpg" alt="">  </li>
+</ul>
+<h1 id="12-_通过异常处理错误">12. 通过异常处理错误</h1><ul>
+<li>同 Java 中其他对象的创建一样，将使用 new 在堆上创建异常对象。  </li>
+<li>Throwable 这个 Java 类被用来表示任何可以作为异常被抛出的类。Throwable 对象可分为两种类型（指从 Throwable 继承而得到的类型）：Error 用来表示编译时和系统错误（除特殊情况外，一般不用你关心）；Exception 是可以被抛出的基本类型，在 Java 类库、用户方法以及运行时故障中都可能抛出 Exception 型异常。  </li>
+<li>finally 子句需要清理的资源：已经打开的文件或网络连接，在屏幕上画的图形，甚至可以是外部世界的某个开关。  </li>
+<li>C++ 和 Java 都是强静态类型语言，即编译时就做类型检查的语言。  </li>
+<li>反射和泛型就是用来补偿静态类型检查所带来的过的限制。  </li>
+<li>至理名言：好的程序设计语言能帮助程序员写出好程序，但无论哪种语言都避免不了程序员用它写出了坏程序。  </li>
+</ul>
+<h1 id="13-_···">13. ···</h1><p><img src="http://7xjda2.com1.z0.glb.clouddn.com/night_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/1746509-Queen-s-Room" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[《Java 编程思想》，原版英文书为《Thinking in Java》，全书1400多页的容量，基本覆盖了所有的 Java 知识（包括那些高级特性），该书也赢得了全球程序员的广泛赞誉。最近仔细看了这本书，感觉确实是一本经典好书，现打算作此读书笔记整理，随时记录一些阅读过程中发现的技术要点、难点，以便巩固 Java 知识，同时方便以后随时查阅。]]>
+    <![CDATA[《Java 编程思想》，原版英文书为《Thinking in Java》，全书800多页的容量，基本覆盖了所有的 Java 知识（包括那些高级特性），该书也赢得了全球程序员的广泛赞誉。最近仔细看了这本书，感觉确实是一本经典好书，现打算作此读书笔记整理，随时记录一些阅读过程中发现的技术要点、难点，以便巩固 Java 知识，同时方便以后随时查阅。]]>
     
     </summary>
     
