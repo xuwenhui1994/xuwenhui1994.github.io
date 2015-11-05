@@ -5,7 +5,7 @@
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net//"/>
-  <updated>2015-09-18T16:47:56.323Z</updated>
+  <updated>2015-09-19T05:38:55.285Z</updated>
   <id>http://www.xuwenhui.net//</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.xuwenhui.net/2015/09/14/%E3%80%8AThinking-in-Java%E3%80%8B-reading-notes/"/>
     <id>http://www.xuwenhui.net/2015/09/14/《Thinking-in-Java》-reading-notes/</id>
     <published>2015-09-14T15:37:15.000Z</published>
-    <updated>2015-09-18T16:47:56.323Z</updated>
+    <updated>2015-09-19T05:38:55.285Z</updated>
     <content type="html"><![CDATA[<h1 id="1-_对象导论">1. 对象导论</h1><ul>
 <li>has-a —— 组合，is-a —— 继承。  </li>
 <li>所有可以发送给基类对象的消息同时也可以发送给导出类对象，即导出类与基类具有相同的类型、等价性。  </li>
@@ -91,8 +91,8 @@
 <h1 id="11-_持有对象">11. 持有对象</h1><ul>
 <li>System.out.print(c)；（c为某个类的对象）该方法将打印类名，后面跟随该对象的散列码的无符号十六进制表示（这个散列码是通过 hashCode() 方法产生的）。  </li>
 <li>迭代器通常被称为轻量级对象：创建它的代价小。  </li>
-<li>Iterato 的真正威力：能够将遍历序列的操作与序列底层的结构分离。或者说，迭代器统一了对容器的访问方式。  </li>
-<li>四种容器：Map、List、Set 和 Queue。<img src="http://7xjda2.com1.z0.glb.clouddn.com/简单的容器分类.jpg" alt="">  </li>
+<li>Iterator 的真正威力：能够将遍历序列的操作与序列底层的结构分离。或者说，迭代器统一了对容器的访问方式。  </li>
+<li>四种容器：Map、List、Set 和 Queue。<a href="http://www.cnblogs.com/airwindow/archive/2012/06/24/2560196.html" target="_blank" rel="external">链接</a><img src="http://7xjda2.com1.z0.glb.clouddn.com/简单的容器分类.jpg" alt="">  </li>
 </ul>
 <h1 id="12-_通过异常处理错误">12. 通过异常处理错误</h1><ul>
 <li>同 Java 中其他对象的创建一样，将使用 new 在堆上创建异常对象。  </li>
