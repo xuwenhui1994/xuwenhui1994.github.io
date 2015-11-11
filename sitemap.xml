@@ -2,33 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.xuwenhui.net/2015/09/14/%E3%80%8AThinking-in-Java%E3%80%8B-reading-notes/</loc>
-    <lastmod>2015-09-19T05:38:55.285Z</lastmod>
+    <loc>http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/</loc>
+    <lastmod>2015-11-11T15:59:52.131Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/</loc>
-    <lastmod>2015-09-17T08:53:59.012Z</lastmod>
+    <loc>http://www.xuwenhui.net/2015/06/08/sorting-learning-website/</loc>
+    <lastmod>2015-11-11T15:57:42.734Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xuwenhui.net/2015/06/24/play-hexo/</loc>
+    <lastmod>2015-11-11T15:46:25.509Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/</loc>
+    <lastmod>2015-11-11T15:37:38.147Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2015-11-11T15:29:43.972Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xuwenhui.net/2015/09/14/Thinking-in-Java-reading-notes/</loc>
+    <lastmod>2015-11-11T15:29:27.543Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.xuwenhui.net/2015/08/12/computer-terms/</loc>
     <lastmod>2015-09-16T08:51:51.625Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.xuwenhui.net/2015/06/08/sorting-learning-website/</loc>
-    <lastmod>2015-09-14T02:58:13.029Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/</loc>
-    <lastmod>2015-09-14T02:55:55.704Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2015-09-14T02:52:14.937Z</lastmod>
   </url>
   
   <url>
@@ -39,11 +44,6 @@
   <url>
     <loc>http://www.xuwenhui.net/2015/09/09/WiFi-ADB-and-Vysor/</loc>
     <lastmod>2015-09-09T12:44:39.825Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.xuwenhui.net/2015/06/24/play-hexo/</loc>
-    <lastmod>2015-08-13T01:17:03.487Z</lastmod>
   </url>
   
   <url>
