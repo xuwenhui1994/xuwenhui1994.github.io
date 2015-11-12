@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   
-  <title><![CDATA[许文辉的博客]]></title>
+  <title><![CDATA[xwh's Blog]]></title>
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net//"/>
@@ -9,7 +9,7 @@
   <id>http://www.xuwenhui.net//</id>
   
   <author>
-    <name><![CDATA[许文辉]]></name>
+    <name><![CDATA[xuwenhui]]></name>
     <email><![CDATA[398279436@qq.com]]></email>
   </author>
   
