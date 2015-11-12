@@ -5,7 +5,7 @@
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.xuwenhui.net//"/>
-  <updated>2015-11-11T15:29:27.543Z</updated>
+  <updated>2015-11-12T09:32:32.515Z</updated>
   <id>http://www.xuwenhui.net//</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://www.xuwenhui.net/2015/09/14/Thinking-in-Java-reading-notes/"/>
     <id>http://www.xuwenhui.net/2015/09/14/Thinking-in-Java-reading-notes/</id>
     <published>2015-09-14T15:37:15.000Z</published>
-    <updated>2015-11-11T15:29:27.543Z</updated>
+    <updated>2015-11-12T09:32:32.515Z</updated>
     <content type="html"><![CDATA[<p>《Java 编程思想》，原版英文书为《Thinking in Java》，全书800多页的容量，基本覆盖了所有的 Java 知识（包括那些高级特性），该书也赢得了全球程序员的广泛赞誉。最近仔细看了这本书，感觉确实是一本经典好书，现打算作此读书笔记整理，随时记录一些阅读过程中发现的技术要点、难点，以便巩固 Java 知识，同时方便以后随时查阅。</p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/Thinking%20in%20Java.jpg" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/011-Thinking-in-Java.jpg" alt=""></p>
 <p><center><em>Java 编程思想</em></center><br><a id="more"></a></p>
 <h1 id="1-_对象导论">1. 对象导论</h1><ul>
 <li>has-a —— 组合，is-a —— 继承。  </li>
@@ -95,7 +95,7 @@
 <li>System.out.print(c)；（c为某个类的对象）该方法将打印类名，后面跟随该对象的散列码的无符号十六进制表示（这个散列码是通过 hashCode() 方法产生的）。  </li>
 <li>迭代器通常被称为轻量级对象：创建它的代价小。  </li>
 <li>Iterator 的真正威力：能够将遍历序列的操作与序列底层的结构分离。或者说，迭代器统一了对容器的访问方式。  </li>
-<li>四种容器：Map、List、Set 和 Queue。<a href="http://www.cnblogs.com/airwindow/archive/2012/06/24/2560196.html" target="_blank" rel="external">链接</a><img src="http://7xjda2.com1.z0.glb.clouddn.com/简单的容器分类.jpg" alt="">  </li>
+<li>四种容器：Map、List、Set 和 Queue。<a href="http://www.cnblogs.com/airwindow/archive/2012/06/24/2560196.html" target="_blank" rel="external">链接</a><img src="http://7xjda2.com1.z0.glb.clouddn.com/011-container.jpg" alt="">  </li>
 </ul>
 <h1 id="12-_通过异常处理错误">12. 通过异常处理错误</h1><ul>
 <li>同 Java 中其他对象的创建一样，将使用 new 在堆上创建异常对象。  </li>
@@ -105,12 +105,12 @@
 <li>反射和泛型就是用来补偿静态类型检查所带来的过的限制。  </li>
 <li>至理名言：好的程序设计语言能帮助程序员写出好程序，但无论哪种语言都避免不了程序员用它写出了坏程序。  </li>
 </ul>
-<h1 id="13-_···">13. ···</h1><p><img src="http://7xjda2.com1.z0.glb.clouddn.com/night_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/1746509-Queen-s-Room" target="_blank" rel="external">Dribbble</a>。</em> </p>
+<h1 id="13-_···">13. ···</h1><p><img src="http://7xjda2.com1.z0.glb.clouddn.com/011-night_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/1746509-Queen-s-Room" target="_blank" rel="external">Dribbble</a>。</em> </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>《Java 编程思想》，原版英文书为《Thinking in Java》，全书800多页的容量，基本覆盖了所有的 Java 知识（包括那些高级特性），该书也赢得了全球程序员的广泛赞誉。最近仔细看了这本书，感觉确实是一本经典好书，现打算作此读书笔记整理，随时记录一些阅读过程中发现的技术要点、难点，以便巩固 Java 知识，同时方便以后随时查阅。</p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/Thinking%20in%20Java.jpg" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/011-Thinking-in-Java.jpg" alt=""></p>
 <p><center><em>Java 编程思想</em></center><br>]]>
     
     </summary>
@@ -130,13 +130,18 @@
     <link href="http://www.xuwenhui.net/2015/09/09/mood-diary-20150909/"/>
     <id>http://www.xuwenhui.net/2015/09/09/mood-diary-20150909/</id>
     <published>2015-09-09T13:00:00.000Z</published>
-    <updated>2015-09-09T15:24:07.318Z</updated>
-    <content type="html"><![CDATA[<p>&#160; &#160; &#160; &#160;终于开始了我的第一篇心情日志，此时我的内心是激动的，毕竟，万事开头难嘛！回看我的个人博客，5月30号的某个下午，航海楼的某个教室，倒腾了几天的环境搭建，终于···成功！！！于是仔仔细细的记录了我的整个博客搭建流程，尽可能的还原博客从无到有的点点滴滴，还小小得意的发了说说和朋友圈，为网站吸了不少访问量及评论。之后，我也尽可能的完善我的个人博客，学习 markdown 语法、添加音乐播放器、添加好玩的 High 一下、装饰多说评论样式、添加 CNZZ 流量统计、添加分享文章功能、添加友链功能、将网站提交到百度站长平台等等，以及我一直坚持的文章末尾添加 gif 动图，然后就有了今天的网站模样。转眼过去3个月有余，博文一共发布了9篇，平均下来10天一篇，虽然没有达到一周一篇的美好预想，却也没使它荒废。<br>&#160; &#160; &#160; &#160;今天是星期三，是新生报道的第二天，也是我最后一年大学生活的开始，看着大一新生一张张无忧无虑的笑脸，还有围绕着的父母们脸上洋溢的幸福，我未免感到了一些伤感，只能感叹一句，大学过得真快。不对！其实，时间一直都流逝得飞快。今年暑假，总共8周的时间，在武汉呆了7周进行实习，最后一周回了趟家，回家，也是当天临时决定的，下午决定回家，赶紧用手机刷火车票，晚上23点半左右坐上了火车，通过中转的方式，几经周折，第二天10点多到了家。家里还是挺舒服的，我妈知道我嘴刁，人也瘦、养不好，每天都换不同的菜品来安顿我，走的时候体重比刚来的时候貌似还重了2斤左右···我还有个堂弟，今年上初一，十分调皮，不过，我一回来，他就成了我的小跟班，窃喜中···o(^▽^)o。当时我打算回家，其实就是想放松一下心情、调节调节，毕竟大半年没回家，大四也到了找工作的时候，希望通过与家人的交流能将自己调节到最好的状态，然后大四开学了好好准备，争取能够拿到一份满意的 offer。回想自己今年暑假的实习，算是进入社会的一次有力尝试吧，也租了一回10几个人共用一个卫生间的房子，也当了一回朝九晚六的IT职场人士，也感受了一回程序员群体的日常，也体会了一回生活已是如此不易，但是，我怎么敢否认这不是我感到最有收获的一个暑假呢？<br>&#160; &#160; &#160; &#160;突然起了，大一时有人跟我说过这样一句话，“男人啊，为了生活努力奋斗吧！”嗯，就是这样，我要为生活努力奋斗~~~<br>&#160; &#160; &#160; &#160;加油我的博客，加油自己，加油我的明天！！！  </p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/01-dreamygirl_400x300_v2.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2019974-Dreamy-Girl-gif" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+    <updated>2015-11-12T09:31:53.643Z</updated>
+    <content type="html"><![CDATA[<p>2015/09/09 Wed 武汉 26℃ 多云</p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/010-fighting.png" alt=""></p>
+<p><center><em>奋斗</em></center><br><a id="more"></a></p>
+<p>&#160; &#160; &#160; &#160;终于开始了我的第一篇心情日志，此时我的内心是激动的，毕竟，万事开头难嘛！回看我的个人博客，5月30号的某个下午，航海楼的某个教室，倒腾了几天的环境搭建，终于···成功！！！于是仔仔细细的记录了我的整个博客搭建流程，尽可能的还原博客从无到有的点点滴滴，还小小得意的发了说说和朋友圈，为网站吸了不少访问量及评论。之后，我也尽可能的完善我的个人博客，学习 markdown 语法、添加音乐播放器、添加好玩的 High 一下、装饰多说评论样式、添加 CNZZ 流量统计、添加分享文章功能、添加友链功能、将网站提交到百度站长平台等等，以及我一直坚持的文章末尾添加 gif 动图，然后就有了今天的网站模样。转眼过去3个月有余，博文一共发布了9篇，平均下来10天一篇，虽然没有达到一周一篇的美好预想，却也没使它荒废。<br>&#160; &#160; &#160; &#160;今天是星期三，是新生报道的第二天，也是我最后一年大学生活的开始，看着大一新生一张张无忧无虑的笑脸，还有围绕着的父母们脸上洋溢的幸福，我未免感到了一些伤感，只能感叹一句，大学过得真快。不对！其实，时间一直都流逝得飞快。今年暑假，总共8周的时间，在武汉呆了7周进行实习，最后一周回了趟家，回家，也是当天临时决定的，下午决定回家，赶紧用手机刷火车票，晚上23点半左右坐上了火车，通过中转的方式，几经周折，第二天10点多到了家。家里还是挺舒服的，我妈知道我嘴刁，人也瘦、养不好，每天都换不同的菜品来安顿我，走的时候体重比刚来的时候貌似还重了2斤左右···我还有个堂弟，今年上初一，十分调皮，不过，我一回来，他就成了我的小跟班，窃喜中···o(^▽^)o。当时我打算回家，其实就是想放松一下心情、调节调节，毕竟大半年没回家，大四也到了找工作的时候，希望通过与家人的交流能将自己调节到最好的状态，然后大四开学了好好准备，争取能够拿到一份满意的 offer。回想自己今年暑假的实习，算是进入社会的一次有力尝试吧，也租了一回10几个人共用一个卫生间的房子，也当了一回朝九晚六的IT职场人士，也感受了一回程序员群体的日常，也体会了一回生活已是如此不易，但是，我怎么敢否认这不是我感到最有收获的一个暑假呢？<br>&#160; &#160; &#160; &#160;突然起了，大一时有人跟我说过这样一句话，“男人啊，为了生活努力奋斗吧！”嗯，就是这样，我要为生活努力奋斗~~~<br>&#160; &#160; &#160; &#160;加油我的博客，加油自己，加油我的明天！！！  </p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/010-01-dreamygirl_400x300_v2.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2019974-Dreamy-Girl-gif" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[2015/09/09 Wed 武汉 26℃ 多云]]>
+    <![CDATA[<p>2015/09/09 Wed 武汉 26℃ 多云</p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/010-fighting.png" alt=""></p>
+<p><center><em>奋斗</em></center><br>]]>
     
     </summary>
     
@@ -151,27 +156,34 @@
     <link href="http://www.xuwenhui.net/2015/09/09/WiFi-ADB-and-Vysor/"/>
     <id>http://www.xuwenhui.net/2015/09/09/WiFi-ADB-and-Vysor/</id>
     <published>2015-09-09T09:12:02.000Z</published>
-    <updated>2015-09-09T12:44:39.825Z</updated>
-    <content type="html"><![CDATA[<h1 id="准备工作">准备工作</h1><p>在开始上手之前，你需要准备下面的两样工具：  </p>
+    <updated>2015-11-12T09:31:09.058Z</updated>
+    <content type="html"><![CDATA[<p>一直苦恼于 Android Studio + Genymotion 对内存极大的消耗，常常导致电脑内存消耗殆尽，于是只能使用真机调试，可有时又会遇到没带数据线的尴尬，或者是萌生出在电脑上实时操控真机的想法，偶然在网络上get到了一个新技能，最终完美解决。</p>
+<h1 id="准备工作">准备工作</h1><p>在开始上手之前，你需要准备下面的两样工具：  </p>
 <ol>
-<li><p>WiFi ADB —— 一款APP<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/WiFi%20ADB.png" alt=""><br>获取方法：可以去百度搜索下载该 APP，我是在豌豆荚找到的。<br>作用：通过 WiFi 来连接 ADB，从此免去数据线的烦恼（前提是：电脑和手机在同一网络下，且手机已 root，即该APP必须获得 root 权限）。  </p>
+<li><p>WiFi ADB —— 一款APP<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/009-WiFi-ADB.png" alt=""><br>获取方法：可以去百度搜索下载该 APP，我是在豌豆荚找到的。<br>作用：通过 WiFi 来连接 ADB，从此免去数据线的烦恼（前提是：电脑和手机在同一网络下，且手机已 root，即该APP必须获得 root 权限）。  </p>
 </li>
-<li><p>Vysor —— 一款Chrome插件<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/Vysor.png" alt=""><br>获取方法：Chrome 应用商店搜索下载（需FQ）或者网上找离线包下载安装。<br>作用：真正用电脑来控制真机操作，实时投影，两边同时响应操作变化，双向操作，最赞的一点是完全鼠标控制（左键代表手势，右键代表返回，中键代表回到主界面）。  </p>
+<li><p>Vysor —— 一款Chrome插件<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/009-Vysor.png" alt=""><br>获取方法：Chrome 应用商店搜索下载（需FQ）或者网上找离线包下载安装。<br>作用：真正用电脑来控制真机操作，实时投影，两边同时响应操作变化，双向操作，最赞的一点是完全鼠标控制（左键代表手势，右键代表返回，中键代表回到主界面）。  </p>
+<a id="more"></a>
 </li>
 </ol>
 <h1 id="开始上手">开始上手</h1><ol>
 <li>将手机与电脑处于同一网络下。  </li>
-<li>打开手机 WiFi ADB ，并拨动开关。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/Screenshot_2015-09-09-19-36-19.png" alt="">  </li>
-<li>运行 CMD 命令行程序，建立 ADB 连接（此处需要将 adb.exe 设置为系统环境变量），IP 输入当前所在网络的地址，即上图显示的地址，出现下图的结果即代表连接成功。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/QQ截图20150909193948.png" alt="">  </li>
-<li>运行 Vysor，选择当前已建立连接的手机。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/QQ截图20150909195028.png" alt=""><br><img src="http://7xjda2.com1.z0.glb.clouddn.com/QQ截图20150909195055.png" alt=""></li>
-<li>到此，所有工作都已完毕，你可以随心所欲的操作手机，调试你在 Android Studio 或者是 Eclipse 下写的 Android 项目了。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/GIF20150909204320.gif" alt=""><br>就是这么畅快，一切和用数据线连接真机，操作真机一样~~  </li>
+<li>打开手机 WiFi ADB ，并拨动开关。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/009-screenshot-01.png" alt="">  </li>
+<li>运行 CMD 命令行程序，建立 ADB 连接（此处需要将 adb.exe 设置为系统环境变量），IP 输入当前所在网络的地址，即上图显示的地址，出现下图的结果即代表连接成功。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/009-screenshot-02.png" alt="">  </li>
+<li>运行 Vysor，选择当前已建立连接的手机。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/009-screenshot-03.png" alt=""><br><img src="http://7xjda2.com1.z0.glb.clouddn.com/009-screenshot-04.png" alt=""></li>
+<li>到此，所有工作都已完毕，你可以随心所欲的操作手机，调试你在 Android Studio 或者是 Eclipse 下写的 Android 项目了。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/009-screenshot-05.gif" alt=""><br>就是这么畅快，一切和用数据线连接真机，操作真机一样~~  </li>
 </ol>
 <h1 id="参考文章">参考文章</h1><p><a href="http://www.jianshu.com/p/8476b829f3d1" target="_blank" rel="external">Vysor让你在电脑上完全控制android手机屏幕镜像</a><br><a href="http://www.jianshu.com/p/8be491372397" target="_blank" rel="external">Vysor 情怀玩法 （番外篇）</a>  </p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/google_motion_system.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2229911-Google-Brand-System-Motion" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/009-google_motion_system.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2229911-Google-Brand-System-Motion" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[一直苦恼于 Android Studio + Genymotion 对内存极大的消耗，常常导致电脑内存消耗殆尽，于是只能使用真机调试，可有时又会遇到没带数据线的尴尬，或者是萌生出在电脑上实时操控真机的想法，偶然在网络上get到了一个新技能，最终完美解决。]]>
+    <![CDATA[<p>一直苦恼于 Android Studio + Genymotion 对内存极大的消耗，常常导致电脑内存消耗殆尽，于是只能使用真机调试，可有时又会遇到没带数据线的尴尬，或者是萌生出在电脑上实时操控真机的想法，偶然在网络上get到了一个新技能，最终完美解决。</p>
+<h1 id="准备工作">准备工作</h1><p>在开始上手之前，你需要准备下面的两样工具：  </p>
+<ol>
+<li><p>WiFi ADB —— 一款APP<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/009-WiFi-ADB.png" alt=""><br>获取方法：可以去百度搜索下载该 APP，我是在豌豆荚找到的。<br>作用：通过 WiFi 来连接 ADB，从此免去数据线的烦恼（前提是：电脑和手机在同一网络下，且手机已 root，即该APP必须获得 root 权限）。  </p>
+</li>
+<li><p>Vysor —— 一款Chrome插件<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/009-Vysor.png" alt=""><br>获取方法：Chrome 应用商店搜索下载（需FQ）或者网上找离线包下载安装。<br>作用：真正用电脑来控制真机操作，实时投影，两边同时响应操作变化，双向操作，最赞的一点是完全鼠标控制（左键代表手势，右键代表返回，中键代表回到主界面）。  </p>]]>
     
     </summary>
     
@@ -186,8 +198,11 @@
     <link href="http://www.xuwenhui.net/2015/08/12/computer-terms/"/>
     <id>http://www.xuwenhui.net/2015/08/12/computer-terms/</id>
     <published>2015-08-12T10:45:24.000Z</published>
-    <updated>2015-09-16T08:51:51.625Z</updated>
-    <content type="html"><![CDATA[<p><em>注：排名不分先后，仅按时间顺序~~  </em></p>
+    <updated>2015-11-12T09:30:21.703Z</updated>
+    <content type="html"><![CDATA[<p>有感于自己糟糕的英语，现收录一些计算机方面的术语，以后看到会不定期补充进来，时不时可以翻阅一下。</p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/008-english.jpg" alt=""></p>
+<p><center><em>English</em></center><br><a id="more"></a></p>
+<p><em>注：排名不分先后，仅按时间顺序~~  </em></p>
 <ol>
 <li>HTML —— HyperText Markup Language （超文本标记语言）  </li>
 <li>CSS —— Cascading Style Sheets （层叠样式表）  </li>
@@ -219,11 +234,13 @@
 <li>UDP —— User Datagram Protocol （用户数据报协议）  </li>
 <li>···  </li>
 </ol>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/Raid%20Run-dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2121360-Raid-Run" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/008-Raid-Run-dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2121360-Raid-Run" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[有感于自己糟糕的英语，现收录一些计算机方面的术语，以后看到会不定期补充进来，时不时可以翻阅一下。]]>
+    <![CDATA[<p>有感于自己糟糕的英语，现收录一些计算机方面的术语，以后看到会不定期补充进来，时不时可以翻阅一下。</p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/008-english.jpg" alt=""></p>
+<p><center><em>English</em></center><br>]]>
     
     </summary>
     
@@ -240,24 +257,29 @@
     <link href="http://www.xuwenhui.net/2015/08/12/android-webservice/"/>
     <id>http://www.xuwenhui.net/2015/08/12/android-webservice/</id>
     <published>2015-08-12T02:49:59.000Z</published>
-    <updated>2015-08-13T01:11:13.553Z</updated>
-    <content type="html"><![CDATA[<h1 id="认识_Web_Service">认识 Web Service</h1><p>刚开始听说这个项目与后台进行通讯是用 Web Service 的时候，我其实是感到了一些困难，毕竟没用过，只在那本《疯狂 Android 讲义》中看到过，对它的印象就是有一些复杂的协议、可以调用一些“天气接口”，然后就可以看到各种城市的天气状况，总之，就是后台做好了一些东西，你拿来直接展示到客户端。<br>现在看来，还没有那么简单，于是，我又好好的学习了一下 Web Service，知识点如下：</p>
+    <updated>2015-11-12T09:29:26.408Z</updated>
+    <content type="html"><![CDATA[<p>最近在实习项目中需要用到 Web Service 进行后台网络通讯，期间遇到了不少的问题，现在，项目也差不多做完了，故总结一下。</p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/007-w3school-ws.png" alt=""></p>
+<p><center><em>Web Service</em></center><br><a id="more"></a></p>
+<h1 id="认识_Web_Service">认识 Web Service</h1><p>刚开始听说这个项目与后台进行通讯是用 Web Service 的时候，我其实是感到了一些困难，毕竟没用过，只在那本《疯狂 Android 讲义》中看到过，对它的印象就是有一些复杂的协议、可以调用一些“天气接口”，然后就可以看到各种城市的天气状况，总之，就是后台做好了一些东西，你拿来直接展示到客户端。<br>现在看来，还没有那么简单，于是，我又好好的学习了一下 Web Service，知识点如下：</p>
 <ol>
 <li>Web Service 平台主要涉及的技术有：SOAP(Simple Object Access Protocol, 简单对象访问协议)、WSDL（Web Service Description Language, Web Service 描述语言）、UDDI(Universal Description Discovery and Integration, 通用描述、发现与集成服务)。  </li>
 <li>一条 SOAP 消息就是一份特定的 XML 文档，SOAP 就是规定了 XML 文档该如何写，如：根元素为 “Envelop”,两个子元素为 “Header”(可选)、“Body”（必选）。  </li>
 <li>上面 Body 元素中存放的 SOAP 消息的主体就该按照 WSDL 所规范的格式来写。主要就是访问和使用 Web Service 所必须的信息。  </li>
 <li>UDDI 是一种目录服务，通过它，企业可注册并搜索 Web Service。  </li>
 </ol>
-<p><a href="http://www.w3school.com.cn/ws.asp" target="_blank" rel="external">W3CSchool</a>上也有一些关于 Web Service 的教程，不过，这个教程比较偏向于搭建 Web Service 后台服务给别人用（还有一点比较好奇，为什么他说的“Web Services”加了“s”~~~）<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/w3school-ws.png" alt="">  </p>
+<p><a href="http://www.w3school.com.cn/ws.asp" target="_blank" rel="external">W3CSchool</a>上也有一些关于 Web Service 的教程，不过，这个教程比较偏向于搭建 Web Service 后台服务给别人用（还有一点比较好奇，为什么他说的“Web Services”加了“s”~~~）  </p>
 <h1 id="Android_使用_Web_Service">Android 使用 Web Service</h1><p>一般，Android 应用只是充当 Web Service 的客户端，调用远程 Web Service，会使用到 ksoap2-android 这个 jar 包，操作步骤如下：<br>（1） 创建 HttpTransportSE 对象，该对象用于调用 Web Service 操作。<br>（2） 创建 SoapSerializationEnvelope 对象，该对象是 SOAP 消息的载体。<br>（3） 创建 SoapObject 对象，创建该对象时需要传入所要调用 Web Service 的命名空间、C方法名。<br>（4） 调用 SoapObject 对象的 addProperty（String name，Object value）方法来设置参数。<br>（5） 调用 SoapSerializationEnvelope 对象的 setOutputSoapObject() 方法，或者直接对 bodyOut 属性赋值，将 SoapObject 对象设置为 SoapSerializationEnvelope 的传出 SOAP 消息体。<br>（6） 调用 HttpTransportSE 对象的 call 方法，并以 SoapSerializationEnvelope 作为参数调用远程 Web Service。<br>（7） 访问 SoapSerializationEnvelope 对象的 bodyIn 属性，返回一个 SoapObject 对象，该对象就代表了 Web Service 的返回消息。  </p>
 <p>看起来步骤有点多，有点麻烦，其实写一个 Web Service 工具类以后，这一切都变得相当容易。<br>工具类参考了：<a href="http://blog.csdn.net/xiaanming/article/details/16871117" target="_blank" rel="external">Android 通过WebService进行网络编程，使用工具类轻松实现</a>，并进行了适当的调整，以适应于我的项目中来，在此表示十分感谢。<br>废话不多说，贴上代码（结合上面的步骤一起来看，理解起来效果更佳哟~~）<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">WebServiceUtil</span> </span>&#123;</span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> String URL = <span class="string">"http://172.16.1.201:18085"</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> String NAMESPACE = <span class="string">"urn:add"</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> String METHOD_NAME = <span class="string">"add"</span>;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 含有3个线程的线程池</span></span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> ExecutorService executorService = Executors</span><br><span class="line">			.newFixedThreadPool(<span class="number">3</span>);</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">callWebService</span><span class="params">(<span class="keyword">final</span> ClientData clientData,</span><br><span class="line">			<span class="keyword">final</span> WebServiceCallBack webServiceCallBack)</span> </span>&#123;</span><br><span class="line">		<span class="comment">// 创建HttpTransportSE对象</span></span><br><span class="line">		<span class="keyword">final</span> HttpTransportSE httpTransportSE = <span class="keyword">new</span> HttpTransportSE(URL);</span><br><span class="line">		<span class="comment">// 创建SoapObject对象并添加参数</span></span><br><span class="line">		SoapObject soapObject = <span class="keyword">new</span> SoapObject(NAMESPACE, METHOD_NAME);</span><br><span class="line">		soapObject.addProperty(<span class="string">"ver"</span>, clientData.getVer());</span><br><span class="line">		soapObject.addProperty(<span class="string">"ccmd"</span>, clientData.getCcmd());</span><br><span class="line">		soapObject.addProperty(<span class="string">"skey"</span>, clientData.getSkey());</span><br><span class="line">		soapObject.addProperty(<span class="string">"mac"</span>, clientData.getMac());</span><br><span class="line">		soapObject.addProperty(<span class="string">"x"</span>, clientData.getX());</span><br><span class="line">		soapObject.addProperty(<span class="string">"y"</span>, clientData.getY());</span><br><span class="line">		soapObject.addProperty(<span class="string">"z"</span>, clientData.getZ());</span><br><span class="line">		<span class="comment">// 实例化SoapSerializationEnvelope，传入WebService的SOAP协议的版本号</span></span><br><span class="line">		<span class="keyword">final</span> SoapSerializationEnvelope soapEnvelope = <span class="keyword">new</span> SoapSerializationEnvelope(</span><br><span class="line">				SoapEnvelope.VER11);</span><br><span class="line">		<span class="comment">// 设置是否调用的是.Net开发的WebService</span></span><br><span class="line">		soapEnvelope.setOutputSoapObject(soapObject);</span><br><span class="line">		soapEnvelope.dotNet = <span class="keyword">true</span>;</span><br><span class="line">		httpTransportSE.debug = <span class="keyword">true</span>;</span><br><span class="line"></span><br><span class="line">		<span class="comment">// 开启线程去访问WebService</span></span><br><span class="line">		executorService.submit(<span class="keyword">new</span> Runnable() &#123;</span><br><span class="line">			<span class="annotation">@Override</span></span><br><span class="line">			<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">				SoapObject resultSoapObject = <span class="keyword">null</span>;</span><br><span class="line">				<span class="keyword">try</span> &#123;</span><br><span class="line">					httpTransportSE.call(NAMESPACE + METHOD_NAME, soapEnvelope);</span><br><span class="line">					<span class="keyword">if</span> (soapEnvelope.getResponse() != <span class="keyword">null</span>) &#123;</span><br><span class="line">						<span class="comment">// 获取服务器响应返回的SoapObject</span></span><br><span class="line">						resultSoapObject = (SoapObject) soapEnvelope.bodyIn;</span><br><span class="line">					&#125;</span><br><span class="line">				&#125; <span class="keyword">catch</span> (HttpResponseException e) &#123;</span><br><span class="line">					e.printStackTrace();</span><br><span class="line">				&#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">					e.printStackTrace();</span><br><span class="line">				&#125; <span class="keyword">catch</span> (XmlPullParserException e) &#123;</span><br><span class="line">					e.printStackTrace();</span><br><span class="line">				&#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">					webServiceCallBack.callBack(resultSoapObject);</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">/**</span><br><span class="line">	 * 回调接口</span><br><span class="line">	 */</span></span><br><span class="line">	<span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">WebServiceCallBack</span> </span>&#123;</span><br><span class="line">		<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">callBack</span><span class="params">(SoapObject result)</span></span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>当然，这个工具类里面的第一个参数 final ClientData clientData 是根据实际项目需要而更改的，主要作用就是为 SoapObject 对象添加参数，另外，别忘了需要添加 ksoap2-android 这个 jar 包。<br>实际使用时就会很简单，比如下面：<br><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">WebServiceUtil</span>.callWebService(mClientData, new <span class="type">WebServiceCallBack</span>() &#123;</span><br><span class="line">			@<span class="type">Override</span></span><br><span class="line">			public <span class="type">void</span> callBack(<span class="type">SoapObject</span> <span class="literal">result</span>) &#123;</span><br><span class="line">				<span class="keyword">if</span> (<span class="literal">result</span> != null) &#123;</span><br><span class="line">					// 获得服务器数据并处理</span><br><span class="line">					// handler.sendMessage(···);</span><br><span class="line">				&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">					// 无法获得服务器数据</span><br><span class="line">					// handler.sendMessage(···);</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;);</span><br></pre></td></tr></table></figure></p>
 <p>为了处理网络操作中的异步问题，一个很好的方法就是：通过 handler 将子线程里面的处理结果传给主线程，然后在主线程里更新 UI 就可以了。<br>实践证明：Web Service 工具类和 handler 一起十分好用！！！  </p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/debut-400_300-4.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2156252-First-shot-animation" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/007-debut-400_300-4.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2156252-First-shot-animation" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[最近在实习项目中需要用到 Web Service 进行后台网络通讯，期间遇到了不少的问题，现在，项目也差不多做完了，故总结一下。]]>
+    <![CDATA[<p>最近在实习项目中需要用到 Web Service 进行后台网络通讯，期间遇到了不少的问题，现在，项目也差不多做完了，故总结一下。</p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/007-w3school-ws.png" alt=""></p>
+<p><center><em>Web Service</em></center><br>]]>
     
     </summary>
     
@@ -274,11 +296,14 @@
     <link href="http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/"/>
     <id>http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/</id>
     <published>2015-07-28T11:41:16.000Z</published>
-    <updated>2015-11-11T15:59:52.131Z</updated>
+    <updated>2015-11-12T09:28:56.599Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>What is the single most influential book every programmer should read?  </p>
 </blockquote>
-<p>这是一个在<a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read?page=1&amp;tab=votes#tab-top" target="_blank" rel="external">stackoverflow</a>上的问题，借此问题，也就衍生出了许许多多关于程序员必读的一些经典书籍的书单。<br>这里我还参考了一些其他的程序员必读书单，如下：<br>（1）<a href="http://bestcbooks.com/recommend/most-influential-book/" target="_blank" rel="external">程序员必读书籍——计算机书籍控</a> - 网站还提供各种计算机类的书籍PDF下载，分类整理的还不错<br>（2）<a href="http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html" target="_blank" rel="external">一个合格的程序员应该读过哪些书</a> - 这是关于stackoverflow那个问题的中文版整理<br>（3）<a href="https://github.com/vhf/free-programming-books" target="_blank" rel="external">vhf/free-programming-books</a> - github上一个流行的编程书签索引，里面也有中文版的<br>由此总结收录如下：<br><strong>程序员必读经典书籍Top20：</strong><br><em>每本书的链接均指向豆瓣读书。<a href="http://pan.baidu.com/s/1ntswGS5" target="_blank" rel="external">百度网盘下载链接</a> 密码: cy8a</em><br><em>注：不要迷信排行榜，自己感兴趣和个人方向相关的书籍就可以拿来阅读~~</em>  </p>
+<p>这是一个在<a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read?page=1&amp;tab=votes#tab-top" target="_blank" rel="external">stackoverflow</a>上的问题，借此问题，也就衍生出了许许多多关于程序员必读的一些经典书籍的书单。  </p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/006-reading.jpg" alt=""></p>
+<p><center><em>读书</em></center><br><a id="more"></a></p>
+<p>这里我还参考了一些其他的程序员必读书单，如下：<br>（1）<a href="http://bestcbooks.com/recommend/most-influential-book/" target="_blank" rel="external">程序员必读书籍——计算机书籍控</a> - 网站还提供各种计算机类的书籍PDF下载，分类整理的还不错<br>（2）<a href="http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html" target="_blank" rel="external">一个合格的程序员应该读过哪些书</a> - 这是关于stackoverflow那个问题的中文版整理<br>（3）<a href="https://github.com/vhf/free-programming-books" target="_blank" rel="external">vhf/free-programming-books</a> - github上一个流行的编程书签索引，里面也有中文版的<br>由此总结收录如下：<br><strong>程序员必读经典书籍Top20：</strong><br><em>每本书的链接均指向豆瓣读书。<a href="http://pan.baidu.com/s/1ntswGS5" target="_blank" rel="external">百度网盘下载链接</a> 密码: cy8a</em><br><em>注：不要迷信排行榜，自己感兴趣和个人方向相关的书籍就可以拿来阅读~~</em>  </p>
 <ol>
 <li><a href="http://book.douban.com/subject/1477390/" target="_blank" rel="external">代码大全（Code Complete）</a>  </li>
 <li><a href="http://book.douban.com/subject/5387402/" target="_blank" rel="external">程序员修炼之道：从小工到专家（The Pragmatic Programmer: From Journeyman to Master）</a>  </li>
@@ -301,11 +326,16 @@
 <li><a href="http://book.douban.com/subject/5355285/" target="_blank" rel="external">编程人生（Coders at Work）</a>  </li>
 <li><a href="http://book.douban.com/subject/19989296/" target="_blank" rel="external">别逗了，费曼先生（Surely You’re Joking, Mr. Feynman!）</a>  </li>
 </ol>
-<p>好久没更博了~~好吧，我保证以后尽量每周更新，第一篇心情日志也要计划开写了···<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/cat-and-dog-drib-3.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2157574-BFF-s" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+<p>好久没更博了~~好吧，我保证以后尽量每周更新，第一篇心情日志也要计划开写了···<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/006-cat-and-dog-drib-3.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2157574-BFF-s" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[What is the single most influential book every programmer should read?]]>
+    <![CDATA[<blockquote>
+<p>What is the single most influential book every programmer should read?  </p>
+</blockquote>
+<p>这是一个在<a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read?page=1&amp;tab=votes#tab-top">stackoverflow</a>上的问题，借此问题，也就衍生出了许许多多关于程序员必读的一些经典书籍的书单。  </p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/006-reading.jpg" alt=""></p>
+<p><center><em>读书</em></center><br>]]>
     
     </summary>
     
@@ -320,33 +350,37 @@
     <link href="http://www.xuwenhui.net/2015/07/01/android-summary/"/>
     <id>http://www.xuwenhui.net/2015/07/01/android-summary/</id>
     <published>2015-07-01T10:44:39.000Z</published>
-    <updated>2015-08-13T01:12:01.196Z</updated>
-    <content type="html"><![CDATA[<p><em>主要是参考了李刚老师的《Android疯狂讲义》总结的android基础知识。</em>  </p>
+    <updated>2015-11-12T09:28:03.483Z</updated>
+    <content type="html"><![CDATA[<p>以“一问一答”的形式总结记录自己在android学习过程中的重要知识点，让知识更清晰，便于记忆与理解，也有助于以后各种android相关的笔试、面试。</p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/005-android.jpg" alt=""></p>
+<p><center><em>Android</em></center><br><em>主要是参考了李刚老师的《Android疯狂讲义》总结的android基础知识。</em><br><a id="more"></a></p>
 <ol>
-<li><p>系统体系结构<br>由五部分组成：1.应用程序层 2.应用程序框架 3.函数库 4.Android运行时 5.Linux内核<br>一张图说明问题。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/android系统的体系结构图.jpg" alt="">  </p>
+<li><p>系统体系结构<br>由五部分组成：1.应用程序层 2.应用程序框架 3.函数库 4.Android运行时 5.Linux内核<br>一张图说明问题。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/005-android-architecture.jpg" alt="">  </p>
 </li>
 <li><p>四大组件<br>(1)Activity：为Android应用提供可视化的用户界面<br>(2)Service：为其他组件提供后台服务或监控其它组件的运行状态，通常后台运行，没有图形用户界面<br>(3)BroadcastReceiver：全局监听器，用于监听系统广播消息<br>(4)ContentProvider：跨应用的数据交换，与ContentResolver结合使用  </p>
 </li>
-<li><p>UI组件总结<br>一直苦于android“丰富”的UI组件，特此总结一番。（不妨测试一下自己，你都认识吗？）<br>① 布局管理器<br>LinearLayout(线性布局)、TableLayout(表格布局)、FrameLayout(帧布局)、RelativeLayout(相对布局)、GridLayout(网格布局)、AbsoluteLayout(绝对布局)<br>② TextView及其子类<br>TextView(文本框)、EditText(编辑框)、Button(按钮)、CheckedTextView(检查的文本框)、RadioButton(单选按钮)、CheckBox(复选框)、ToggleButton(状态开关按钮)、Switch(开关)、AnalogClock(模拟时钟)、DigitalClock(数字时钟)、Chronometer(计时器)、AutoCompleteTextView(自动完成文本框)、MultiAutoCompleteTextView(允许输入多个提示项)、ExtractEditText(提供全屏输入法支持)<br>③ ImageView及其子类<br>ImageView(图片框)、ImageButton(图片按钮)、ZoomButton(“放大”或“缩小”按钮，ZoomControls提供“放大”“缩小”组合按钮)、QuickContactBadge(显示关联到指定联系人的图片)<br>④ AdapterView及其子类<br>AdapterView、AbsListView、AbsSpinner、AdapterViewAnimator(均为抽象类)、ListView(列表视图、一列)、GridView(网格视图、多列)、ExpandableListView(可展开的列表组件)、Spinner(下拉列表选择框、垂直)、Gallery(画廊视图、水平的列表选择框)、AdapterViewFlipper(带有自动播放、渐影渐显效果)、StackView(堆叠的图片)<br>⑤ ProgressBar及其子类<br>ProgressBar(进度条)、SeekBar(拖动条)、RatingBar(星级评分条)<br>⑥ ViewAnimator及其子类<br>ViewAnimator(增加动画效果)、ViewSwitcher(视图切换)、ImageSwitcher(图像切换器)、TextSwitcher(文本切换器)、ViewFlipper(类似于AdapterViewFlipper)<br>⑦ 杂项<br>Toast(提示信息)、CalendarView(日历视图)、DatePicker(日期选择器)、TimePicker(时间选择器)、NumberPicker(数值选择器)、SearchView(搜索框)、TabHost(选项条)、ScrollView(滚动视图)、HorizontolScrollView(水平滚动条)、Notification(状态通知)<br>⑧ 对话框<br>AlertDialog(对话框)、ProgressDialog(进度对话框)、DatePickerDialog(日期选择对话框)、TimePickerDialog(时间选择对话框)、PopupWindow(对话框风格的窗口)<br>图片是eclipse下View类的继承关系（快捷键Ctrl+T，android版本为4.4.2）的截图。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/View类的继承关系图.jpg" alt="">  </p>
+<li><p>UI组件总结<br>一直苦于android“丰富”的UI组件，特此总结一番。（不妨测试一下自己，你都认识吗？）<br>① 布局管理器<br>LinearLayout(线性布局)、TableLayout(表格布局)、FrameLayout(帧布局)、RelativeLayout(相对布局)、GridLayout(网格布局)、AbsoluteLayout(绝对布局)<br>② TextView及其子类<br>TextView(文本框)、EditText(编辑框)、Button(按钮)、CheckedTextView(检查的文本框)、RadioButton(单选按钮)、CheckBox(复选框)、ToggleButton(状态开关按钮)、Switch(开关)、AnalogClock(模拟时钟)、DigitalClock(数字时钟)、Chronometer(计时器)、AutoCompleteTextView(自动完成文本框)、MultiAutoCompleteTextView(允许输入多个提示项)、ExtractEditText(提供全屏输入法支持)<br>③ ImageView及其子类<br>ImageView(图片框)、ImageButton(图片按钮)、ZoomButton(“放大”或“缩小”按钮，ZoomControls提供“放大”“缩小”组合按钮)、QuickContactBadge(显示关联到指定联系人的图片)<br>④ AdapterView及其子类<br>AdapterView、AbsListView、AbsSpinner、AdapterViewAnimator(均为抽象类)、ListView(列表视图、一列)、GridView(网格视图、多列)、ExpandableListView(可展开的列表组件)、Spinner(下拉列表选择框、垂直)、Gallery(画廊视图、水平的列表选择框)、AdapterViewFlipper(带有自动播放、渐影渐显效果)、StackView(堆叠的图片)<br>⑤ ProgressBar及其子类<br>ProgressBar(进度条)、SeekBar(拖动条)、RatingBar(星级评分条)<br>⑥ ViewAnimator及其子类<br>ViewAnimator(增加动画效果)、ViewSwitcher(视图切换)、ImageSwitcher(图像切换器)、TextSwitcher(文本切换器)、ViewFlipper(类似于AdapterViewFlipper)<br>⑦ 杂项<br>Toast(提示信息)、CalendarView(日历视图)、DatePicker(日期选择器)、TimePicker(时间选择器)、NumberPicker(数值选择器)、SearchView(搜索框)、TabHost(选项条)、ScrollView(滚动视图)、HorizontolScrollView(水平滚动条)、Notification(状态通知)<br>⑧ 对话框<br>AlertDialog(对话框)、ProgressDialog(进度对话框)、DatePickerDialog(日期选择对话框)、TimePickerDialog(时间选择对话框)、PopupWindow(对话框风格的窗口)<br>图片是eclipse下View类的继承关系（快捷键Ctrl+T，android版本为4.4.2）的截图。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/005-view-class.jpg" alt="">  </p>
 </li>
 <li><p>常用四种适配器<br>(1)BaseAdapter<br>(2)ArrayAdapter<br>(3)SimpleAdapter<br>(4)SimpleCursorAdapter  </p>
 </li>
 <li><p>Handler的使用步骤  </p>
 <figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Loop.prepare();<span class="comment">//为当前线程创建Looper对象，同时也创建了与之配套的MessengerQueue。  </span></span><br><span class="line"><span class="keyword">handler</span> = <span class="keyword">new</span> Handler() &#123;  </span><br><span class="line">	<span class="annotation">@override</span>  </span><br><span class="line">	<span class="keyword">public</span> <span class="function"><span class="keyword">void</span> <span class="title">handleMessage</span><span class="params">(Message msg)</span> </span>&#123;  </span><br><span class="line">		<span class="comment">//负责处理来自于其他线程的消息  </span></span><br><span class="line">	&#125;  </span><br><span class="line">&#125;;  </span><br><span class="line">Looper.loop();<span class="comment">//启动Looper  </span></span><br><span class="line"><span class="comment">//注：主UI线程可以直接创建Handler对象，系统已初始化了一个Looper对象。</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>Activity的7个生命周期<br>(1)onCreate()<br>(2)onStart()<br>(3)onResume()<br>(4)onRestart()<br>(5)onPause()<br>(6)onStop()<br>(7)onDestroy()<br>具体例子：<br>①第一次创建Activity：onCreate()、onStart()、onResume()<br>②按home键：onPause()、onStop()<br>③再回到应用：onRestart()、onStart()、onResume()<br>④跳转新Activity然后回到原Activity、屏幕锁屏再解锁：与按home键然后回到应用一样<br>⑤旋转屏幕：onPause()、onStop()、onDestroy()、onCreate()、onStart()、onResume()<br>⑥返回键退出应用：onPause()、onStop()、onDestroy()<br>此处引用一张官网的Activity生命周期图：<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/activity_lifecycle.png" alt="">  </p>
+<li><p>Activity的7个生命周期<br>(1)onCreate()<br>(2)onStart()<br>(3)onResume()<br>(4)onRestart()<br>(5)onPause()<br>(6)onStop()<br>(7)onDestroy()<br>具体例子：<br>①第一次创建Activity：onCreate()、onStart()、onResume()<br>②按home键：onPause()、onStop()<br>③再回到应用：onRestart()、onStart()、onResume()<br>④跳转新Activity然后回到原Activity、屏幕锁屏再解锁：与按home键然后回到应用一样<br>⑤旋转屏幕：onPause()、onStop()、onDestroy()、onCreate()、onStart()、onResume()<br>⑥返回键退出应用：onPause()、onStop()、onDestroy()<br>此处引用一张官网的Activity生命周期图：<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/005-activity-lifecycle.png" alt="">  </p>
 </li>
-<li><p>Fragment的11个生命周期<br>引用两张官网的图。<br>Fragment生命周期：<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/fragment_lifecycle.png" alt=""><br>Fragment与Activity的生命周期关系：<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/activity_fragment_lifecycle.png" alt="">  </p>
+<li><p>Fragment的11个生命周期<br>引用两张官网的图。<br>Fragment生命周期：<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/005-fragment-lifecycle.png" alt=""><br>Fragment与Activity的生命周期关系：<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/005-activity-fragment-lifecycle.png" alt="">  </p>
 </li>
 <li><p>HttpClient的用法<br>HttpClient就是一个增强版的HttpURLConnection<br>(1)创建HttpClient对象。<br>(2)创建请求方法的实例，并指定请求URL。如果需要发送GET请求，创建HttpGet对象；如果需要发送POST请求，创建HttpPost对象。<br>(3)如果需要发送请求参数，可调用HttpGet、HttpPost共同的setParams(HetpParams params)方法来添加请求参数；对于HttpPost对象而言，也可调用setEntity(HttpEntity entity)方法来设置请求参数。<br>(4)调用HttpClient对象的execute(HttpUriRequest request)发送请求，该方法返回一个HttpResponse。<br>(5)调用HttpResponse的getAllHeaders()、getHeaders(String name)等方法可获取服务器的响应头；调用HttpResponse的getEntity()方法可获取HttpEntity对象，该对象包装了服务器的响应内容。程序可通过该对象获取服务器的响应内容。  </p>
 <figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">//简单用法：从一个网络<span class="type">URL</span>获取字符串数据  </span><br><span class="line"><span class="type">String</span> url = <span class="string">"http://zyfree.acman.cn/"</span>;  </span><br><span class="line"><span class="type">HttpClient</span> client = new <span class="type">DefaultHttpClient</span>();  </span><br><span class="line"><span class="type">HttpGet</span> get = new <span class="type">HttpGet</span>(url);  </span><br><span class="line"><span class="keyword">try</span> &#123;  </span><br><span class="line">	<span class="type">HttpResponse</span> response = client.execute(get);  </span><br><span class="line">	<span class="type">HttpEntity</span> entity = response.getEntity();  </span><br><span class="line">	<span class="type">String</span> <span class="literal">result</span> = <span class="type">EntityUtils</span>.toString(entity);  </span><br><span class="line">&#125; catch (<span class="type">Exception</span> e) &#123;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/01_egypt_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2146710-Egypt-emoG" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/005-01_egypt_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2146710-Egypt-emoG" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[以“一问一答”的形式总结记录自己在android学习过程中的重要知识点，让知识更清晰，便于记忆与理解，也有助于以后各种android相关的笔试、面试。]]>
+    <![CDATA[<p>以“一问一答”的形式总结记录自己在android学习过程中的重要知识点，让知识更清晰，便于记忆与理解，也有助于以后各种android相关的笔试、面试。</p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/005-android.jpg" alt=""></p>
+<p><center><em>Android</em></center><br><em>主要是参考了李刚老师的《Android疯狂讲义》总结的android基础知识。</em><br>]]>
     
     </summary>
     
@@ -361,9 +395,9 @@
     <link href="http://www.xuwenhui.net/2015/06/24/play-hexo/"/>
     <id>http://www.xuwenhui.net/2015/06/24/play-hexo/</id>
     <published>2015-06-24T03:01:55.000Z</published>
-    <updated>2015-11-11T15:46:25.509Z</updated>
+    <updated>2015-11-12T09:26:54.280Z</updated>
     <content type="html"><![CDATA[<p>最近浏览了一些基于hexo的博客，发现了许许多多好玩的东西，故收藏整理之，教你玩转hexo！！！</p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/hexo-github.png" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/004-hexo-github.png" alt=""></p>
 <center><em>hexo</em></center>
 
 <p><em>我一直觉得，把静态博客玩转成动态博客，才有意思。</em><br>还好，如今的互联网是如此开放与便利，这些都不是事儿，只要你敢想~~<br><a id="more"></a></p>
@@ -390,7 +424,7 @@
 <hr>
 <h1 id="多说自定义CSS">多说自定义CSS</h1><hr>
 <p>最近才发现，原来多说评论可以修改样式，有些样式真是太炫酷了。<br>各种传送门：<br><a href="http://www.vsay.cn/one-more-custom-css-lets-you-say-comments-city.html" target="_blank" rel="external">多说自定义CSS 让你的多说评论动感起来 | V说</a><br><a href="http://wsgzao.github.io/post/duoshuo/" target="_blank" rel="external">多说自定义CSS动感头像和多说评论显示User Agent的那些小事 | HelloDog</a>  </p>
-<p>最终我采用了如下的样式：<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/多说自定义样式.gif" alt="">  </p>
+<p>最终我采用了如下的样式：<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/004-duoshuo-style.gif" alt="">  </p>
 <p>方法:<br>在多说后台 -&gt; 设置 -&gt; 基本设置 -&gt; 自定义CSS -&gt; copy下面的代码<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*Head Start*/</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">ul</span><span class="class">.ds-comments-tabs</span> <span class="tag">li</span><span class="class">.ds-tab</span> <span class="tag">a</span><span class="class">.ds-current</span> &#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">0px</span>;</span><br><span class="line">    <span class="attribute">color</span>: <span class="hexcolor">#6D6D6B</span>;</span><br><span class="line">    <span class="attribute">text-shadow</span>: none;</span><br><span class="line">    <span class="attribute">background</span>: <span class="hexcolor">#F3F3F3</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-highlight</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: Microsoft YaHei, <span class="string">"Helvetica Neue"</span>, Helvetica, Arial, Sans-serif;</span><br><span class="line">    ;<span class="attribute">font-size</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">color</span>: <span class="hexcolor">#6D6D6B</span> !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">ul</span><span class="class">.ds-comments-tabs</span> <span class="tag">li</span><span class="class">.ds-tab</span> <span class="tag">a</span><span class="class">.ds-current</span><span class="pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="hexcolor">#696a52</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="hexcolor">#F2F2F2</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">a</span><span class="class">.ds-highlight</span><span class="pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="hexcolor">#696a52</span> !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> &#123;</span><br><span class="line">    <span class="attribute">padding-left</span>: <span class="number">30px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">li</span><span class="class">.ds-post</span>,<span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="id">#ds-hot-posts</span> &#123;</span><br><span class="line">    <span class="attribute">overflow</span>: visible;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-post-self</span> &#123;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">10px</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">li</span><span class="class">.ds-post</span>,<span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-post-self</span> &#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">0</span> !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-avatar</span>, <span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">ul</span><span class="class">.ds-children</span> <span class="class">.ds-avatar</span> &#123;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">    <span class="attribute">left</span>: -<span class="number">20px</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">36px</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">36px</span>;</span><br><span class="line">    <span class="attribute">box-shadow</span>: -<span class="number">1px</span> <span class="number">0</span> <span class="number">1px</span> <span class="function">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,.<span class="number">15</span>) inset;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">46px</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="hexcolor">#FAFAFA</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="class">.ds-avatar</span> <span class="tag">a</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">1px</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">32px</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">32px</span>;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="hexcolor">#b9baa6</span>;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="hexcolor">#fff</span> !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="class">.ds-avatar</span> <span class="tag">a</span><span class="pseudo">:hover</span> &#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="class">.ds-avatar</span> &gt; <span class="tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">2px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">2px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-replybox</span> &#123;</span><br><span class="line">    <span class="attribute">box-shadow</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">ul</span><span class="class">.ds-children</span> <span class="class">.ds-replybox</span><span class="class">.ds-inline-replybox</span> <span class="tag">a</span><span class="class">.ds-avatar</span>,</span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-replybox</span><span class="class">.ds-inline-replybox</span> <span class="tag">a</span><span class="class">.ds-avatar</span> &#123;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">32px</span> !important;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">32px</span> !important;</span><br><span class="line">    <span class="attribute">background</span>: none;</span><br><span class="line">    <span class="attribute">box-shadow</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-replybox</span><span class="class">.ds-inline-replybox</span> <span class="tag">a</span><span class="class">.ds-avatar</span> <span class="tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">32px</span> !important;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">32px</span> !important;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-replybox</span> <span class="tag">a</span><span class="class">.ds-avatar</span>,</span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-replybox</span> <span class="class">.ds-avatar</span> <span class="tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">50px</span> !important;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">50px</span> !important;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">5px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-avatar</span> <span class="tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">32px</span> !important;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">32px</span> !important;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">32px</span>;</span><br><span class="line">    <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">1px</span> <span class="number">3px</span> <span class="function">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.22</span>);</span><br><span class="line">    <span class="attribute">-webkit-transition</span>: .<span class="number">8s</span> all ease-in-out;</span><br><span class="line">    <span class="attribute">-moz-transition</span>: .<span class="number">4s</span> all ease-in-out;</span><br><span class="line">    <span class="attribute">-o-transition</span>: .<span class="number">4s</span> all ease-in-out;</span><br><span class="line">    <span class="attribute">-ms-transition</span>: .<span class="number">4s</span> all ease-in-out;</span><br><span class="line">    <span class="attribute">transition</span>: .<span class="number">4s</span> all ease-in-out;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class">.ds-post-self</span><span class="pseudo">:hover</span> <span class="class">.ds-avatar</span> <span class="tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">-webkit-transform</span>: <span class="function">rotateX</span>(<span class="number">360deg</span>);</span><br><span class="line">    <span class="attribute">-moz-transform</span>: <span class="function">rotate</span>(<span class="number">360deg</span>);</span><br><span class="line">    <span class="attribute">-o-transform</span>: <span class="function">rotate</span>(<span class="number">360deg</span>);</span><br><span class="line">    <span class="attribute">-ms-transform</span>: <span class="function">rotate</span>(<span class="number">360deg</span>);</span><br><span class="line">    <span class="attribute">transform</span>: <span class="function">rotate</span>(<span class="number">360deg</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-comment-body</span> &#123;</span><br><span class="line">    <span class="attribute">-webkit-transition-delay</span>: initial;</span><br><span class="line">    <span class="attribute">-webkit-transition-duration</span>: <span class="number">0.4s</span>;</span><br><span class="line">    <span class="attribute">-webkit-transition-property</span>: all;</span><br><span class="line">    <span class="attribute">-webkit-transition-timing-function</span>: initial;</span><br><span class="line">    <span class="attribute">background</span>: <span class="hexcolor">#F7F7F7</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">15px</span> <span class="number">15px</span> <span class="number">15px</span> <span class="number">47px</span>;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">box-shadow</span>: <span class="hexcolor">#B8B9B9</span> <span class="number">0</span> <span class="number">1px</span> <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">border</span>: white <span class="number">1px</span> solid;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">ul</span><span class="class">.ds-children</span> <span class="class">.ds-comment-body</span> &#123;</span><br><span class="line">    <span class="attribute">padding-left</span>: <span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-comment-body</span> <span class="tag">p</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="hexcolor">#787968</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-comments</span> &#123;</span><br><span class="line">    <span class="attribute">border-bottom</span>: <span class="number">0px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-powered-by</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-comments</span> <span class="tag">a</span><span class="class">.ds-user-name</span> &#123;</span><br><span class="line">    <span class="attribute">font-weight</span>: normal;</span><br><span class="line">    <span class="attribute">color</span>: <span class="hexcolor">#3D3D3D</span> !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-comments</span> <span class="tag">a</span><span class="class">.ds-user-name</span><span class="pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="hexcolor">#D32</span> !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="id">#ds-bubble</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: none !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="id">#ds-hot-posts</span> &#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-hot-posts</span> <span class="class">.ds-gradient-bg</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-comment-body</span><span class="pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="hexcolor">#F1F1F1</span>;</span><br><span class="line">    <span class="attribute">-webkit-transition-delay</span>: initial;</span><br><span class="line">    <span class="attribute">-webkit-transition-duration</span>: <span class="number">0.4s</span>;</span><br><span class="line">    <span class="attribute">-webkit-transition-property</span>: all;</span><br><span class="line">    <span class="attribute">-webkit-transition-timing-function</span>: initial;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*Head End*/</span></span><br></pre></td></tr></table></figure></p>
 <hr>
 <h1 id="gif图">gif图</h1><hr>
@@ -400,12 +434,12 @@
 <li>得到一个外链地址，将外链地址作为图片的URL地址写进文章。  </li>
 </ol>
 <p>推荐的图片资源网站,见相关博客：<a href="http://www.xuwenhui.net/2015/06/08/%E6%95%B4%E7%90%86%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/">整理的学习网站（不定期补充···）</a>  </p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/heytvm_overrated.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2116166-Keep-it-together" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/004-heytvm_overrated.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2116166-Keep-it-together" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>最近浏览了一些基于hexo的博客，发现了许许多多好玩的东西，故收藏整理之，教你玩转hexo！！！</p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/hexo-github.png" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/004-hexo-github.png" alt=""></p>
 <center><em>hexo</em></center>
 
 <p><em>我一直觉得，把静态博客玩转成动态博客，才有意思。</em><br>还好，如今的互联网是如此开放与便利，这些都不是事儿，只要你敢想~~<br>]]>
@@ -423,9 +457,9 @@
     <link href="http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/"/>
     <id>http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/</id>
     <published>2015-06-18T14:35:24.000Z</published>
-    <updated>2015-11-11T15:37:38.147Z</updated>
+    <updated>2015-11-12T09:25:03.692Z</updated>
     <content type="html"><![CDATA[<p>今天突然想把我自己在蓝桥杯比赛时准备的一些算法记录下来，以便翻阅。</p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/lanqiao.png" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/003-lanqiao.png" alt=""></p>
 <p><center><em>蓝桥杯官网</em></center><br><a id="more"></a></p>
 <ol>
 <li><p>斐波那契（记忆化搜索）  </p>
@@ -444,12 +478,12 @@
 <figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//计算：x^n % mod  </span></span><br><span class="line"><span class="keyword">int</span> mod_pow(<span class="keyword">int</span> x, <span class="keyword">int</span> n, <span class="keyword">int</span> <span class="keyword">mod</span>) &#123;</span><br><span class="line">	<span class="keyword">int</span> res = <span class="number">1</span>;  </span><br><span class="line">	<span class="keyword">while</span> (n &gt; <span class="number">0</span>) &#123;  </span><br><span class="line">		<span class="keyword">if</span> (n &amp; <span class="number">1</span>)  </span><br><span class="line">			res = res * x % <span class="keyword">mod</span>;  </span><br><span class="line">		x = x * x % <span class="keyword">mod</span>;  </span><br><span class="line">		n &gt;&gt; = <span class="number">1</span>;</span><br><span class="line">	&#125;  </span><br><span class="line">	<span class="keyword">return</span> res;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<p>我总觉得要把静态博客玩成动态博客才有意思，所以我又无耻的从Dribbble拖了张动图，哈哈o(∩_∩)o。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/ff7_animation_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2072784-Final-Fantasy-VII-Alternate-Timeline" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+<p>我总觉得要把静态博客玩成动态博客才有意思，所以我又无耻的从Dribbble拖了张动图，哈哈o(∩_∩)o。<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/003-ff7_animation_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2072784-Final-Fantasy-VII-Alternate-Timeline" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>今天突然想把我自己在蓝桥杯比赛时准备的一些算法记录下来，以便翻阅。</p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/lanqiao.png" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/003-lanqiao.png" alt=""></p>
 <p><center><em>蓝桥杯官网</em></center><br>]]>
     
     </summary>
@@ -465,9 +499,9 @@
     <link href="http://www.xuwenhui.net/2015/06/08/sorting-learning-website/"/>
     <id>http://www.xuwenhui.net/2015/06/08/sorting-learning-website/</id>
     <published>2015-06-08T02:00:26.000Z</published>
-    <updated>2015-11-11T15:57:42.734Z</updated>
+    <updated>2015-11-12T09:18:58.048Z</updated>
     <content type="html"><![CDATA[<p>整理一些自己觉得实用的网站，主要是和技术相关。</p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/程序员.jpg" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/002-programmer.jpg" alt=""></p>
 <p><center><em>程序员</em></center><br><a id="more"></a></p>
 <h1 id="IT网站">IT网站</h1><p>各种十分好用的IT网站。  </p>
 <ul>
@@ -501,12 +535,12 @@
 <li><a href="http://www.maiziedu.com/" target="_blank" rel="external">麦子学院</a> - 专业的IT在线职业教育平台  </li>
 <li><a href="http://www.jikexueyuan.com/" target="_blank" rel="external">极客学院</a> - 中国最大的IT职业在线教育平台  </li>
 </ul>
-<p>唉，o(︶︿︶)o 太忙了，一周没更新博客了。暂时只更新这些，以后发现了好的学习网站会记录的~~<br>ps：如果大家有好的学习网站，可以留言推荐给我！<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/bb_reel_6-6_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2095826-Honey-Power?list=animated&amp;sort=comments&amp;timeframe=month&amp;offset=72" target="_blank" rel="external">Dribbble</a>。</em>  </p>
+<p>唉，o(︶︿︶)o 太忙了，一周没更新博客了。暂时只更新这些，以后发现了好的学习网站会记录的~~<br>ps：如果大家有好的学习网站，可以留言推荐给我！<br><img src="http://7xjda2.com1.z0.glb.clouddn.com/002-bb_reel_6-6_dribbble.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2095826-Honey-Power?list=animated&amp;sort=comments&amp;timeframe=month&amp;offset=72" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>整理一些自己觉得实用的网站，主要是和技术相关。</p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/程序员.jpg" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/002-programmer.jpg" alt=""></p>
 <p><center><em>程序员</em></center><br>]]>
     
     </summary>
@@ -524,9 +558,9 @@
     <link href="http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
     <id>http://www.xuwenhui.net/2015/05/30/关于博客/</id>
     <published>2015-05-30T07:53:25.000Z</published>
-    <updated>2015-11-11T15:29:43.972Z</updated>
+    <updated>2015-11-12T09:08:24.334Z</updated>
     <content type="html"><![CDATA[<p><em>花了几天时间，终于成功搭建了我的独立博客~~~喜o(∩_∩)o</em></p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/my%20blog.png" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/001-my-blog.png" alt=""></p>
 <p><center><em>手机端截图</em></center><br><a id="more"></a></p>
 <h1 id="感谢在前">感谢在前</h1><hr>
 <p>我的博客的搭建主要是参考了<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/" target="_blank" rel="external">这篇博客</a>的内容，文章写的很好，过程相当清楚，十分感谢作者的辛勤付出！  </p>
@@ -547,10 +581,10 @@
 <p> <em>注：我是在万网花39元购买顶级域名xuwenhui.net,可以使用一年。不是打广告啊！！！<a href="http://www.net.cn/" target="_blank" rel="external">万网</a>是阿里云旗下的，在国内是最大的域名注册服务商，国际上最大的域名注册服务商是<a href="https://www.godaddy.com" target="_blank" rel="external">Go Daddy</a>，貌似网上别人都推荐去这个，不过，支持国产嘛~~。你可以去万网搜索你想要的任何域名地址，如果没有被注册，你就可以立马下手了，相对于购买主机、空间等，域名真真是太便宜了。也是因为这个原因，我只花钱买了域名，其他的都用的免费的。</em></p>
 </li>
 <li><p><strong>空间：</strong>去购买云服务器、云主机，或者使用各种免费的云平台（如SAE、JAE），再或者就是利用<a href="http://pages.github.com/" target="_blank" rel="external">Github Pages</a>建立静态博客</p>
-<p> <em>注：由于各种免费的云平台实在太坑，最终我决定自己动手搭建，我使用Github Pages建立了静态博客，接下来需要做的是将独立域名与GitHub Pages的空间绑定，这样一个基本的博客空壳搭建成功。</em><br><img src="http://7xjda2.com1.z0.glb.clouddn.com/github.jpg" alt=""></p>
+<p> <em>注：由于各种免费的云平台实在太坑，最终我决定自己动手搭建，我使用Github Pages建立了静态博客，接下来需要做的是将独立域名与GitHub Pages的空间绑定，这样一个基本的博客空壳搭建成功。</em><br><img src="http://7xjda2.com1.z0.glb.clouddn.com/001-github.jpg" alt=""></p>
 </li>
 <li><p><strong>博客框架：</strong>博客框架有很多，比如最鼎鼎大名的<a href="https://wordpress.org/" target="_blank" rel="external">WordPress</a>、还有Octopress、Jekyll、Hexo等</p>
-<p> <em>注：<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>是一款基于Node.js的静态博客框架，实践发现确实安装配置起来比较简单，就如它官方介绍的一样：快速、简单、强大。然后关于Hexo的主题资源也比较丰富，我使用的主题是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT</a>这款主题。</em><br><img src="http://7xjda2.com1.z0.glb.clouddn.com/hexo.jpg" alt=""></p>
+<p> <em>注：<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>是一款基于Node.js的静态博客框架，实践发现确实安装配置起来比较简单，就如它官方介绍的一样：快速、简单、强大。然后关于Hexo的主题资源也比较丰富，我使用的主题是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT</a>这款主题。</em><br><img src="http://7xjda2.com1.z0.glb.clouddn.com/001-hexo.jpg" alt=""></p>
 </li>
 <li><p><strong>写博客：</strong>专注于文字而不是排版，推荐使用Markdown语言</p>
 <p> <em>注：这里有一篇很好的<a href="http://www.jianshu.com/p/q81RER" target="_blank" rel="external">Markdown新手指南</a>。搭建好独立博客以后，我现在的写博客过程就变得十分容易了：(1).用<a href="http://markdownpad.com/" target="_blank" rel="external">MarkdownPad 2</a>客户端写博客，(2).使用hexo命令：hexo d -g部署到我的网站。OK，就是这么容易！！！</em></p>
@@ -566,13 +600,13 @@
 <p>我们的征途是星辰大海。</p>
 </blockquote>
 <p>此处盗图一张：</p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/小米招聘.jpg" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/001-xiaomizhaopin.jpg" alt=""></p>
 <p><em>注：欢迎为本网站指出问题，我将及时解决。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><em>花了几天时间，终于成功搭建了我的独立博客~~~喜o(∩_∩)o</em></p>
-<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/my%20blog.png" alt=""></p>
+<p><img src="http://7xjda2.com1.z0.glb.clouddn.com/001-my-blog.png" alt=""></p>
 <p><center><em>手机端截图</em></center><br>]]>
     
     </summary>
