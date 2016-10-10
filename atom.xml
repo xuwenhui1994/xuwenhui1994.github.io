@@ -4,9 +4,9 @@
   <title><![CDATA[xwh's Blog]]></title>
   <subtitle><![CDATA[工作·生活]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://www.xuwenhui.net//"/>
+  <link href="http://xuwenhui.net//"/>
   <updated>2015-11-13T04:50:54.356Z</updated>
-  <id>http://www.xuwenhui.net//</id>
+  <id>http://xuwenhui.net//</id>
   
   <author>
     <name><![CDATA[小学生辉辉辉]]></name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title><![CDATA[Java 编程思想 - 读书笔记]]></title>
-    <link href="http://www.xuwenhui.net/2015/09/14/Thinking-in-Java-reading-notes/"/>
-    <id>http://www.xuwenhui.net/2015/09/14/Thinking-in-Java-reading-notes/</id>
+    <link href="http://xuwenhui.net/2015/09/14/Thinking-in-Java-reading-notes/"/>
+    <id>http://xuwenhui.net/2015/09/14/Thinking-in-Java-reading-notes/</id>
     <published>2015-09-14T15:37:15.000Z</published>
     <updated>2015-11-13T04:50:54.356Z</updated>
     <content type="html"><![CDATA[<p>《Java 编程思想》，原版英文书为《Thinking in Java》，全书800多页的容量，基本覆盖了所有的 Java 知识（包括那些高级特性），该书也赢得了全球程序员的广泛赞誉。最近仔细看了这本书，感觉确实是一本经典好书，现打算作此读书笔记整理，随时记录一些阅读过程中发现的技术要点、难点，以便巩固 Java 知识，同时方便以后随时查阅。</p>
@@ -115,20 +115,20 @@
     
     </summary>
     
-      <category term="Java" scheme="http://www.xuwenhui.net/tags/Java/"/>
+      <category term="Java" scheme="http://xuwenhui.net/tags/Java/"/>
     
-      <category term="读书" scheme="http://www.xuwenhui.net/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://xuwenhui.net/tags/%E8%AF%BB%E4%B9%A6/"/>
     
-      <category term="连载中···" scheme="http://www.xuwenhui.net/tags/%E8%BF%9E%E8%BD%BD%E4%B8%AD%C2%B7%C2%B7%C2%B7/"/>
+      <category term="连载中···" scheme="http://xuwenhui.net/tags/%E8%BF%9E%E8%BD%BD%E4%B8%AD%C2%B7%C2%B7%C2%B7/"/>
     
-      <category term="读书" scheme="http://www.xuwenhui.net/categories/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://xuwenhui.net/categories/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[心情日志 —— 2015/09/09]]></title>
-    <link href="http://www.xuwenhui.net/2015/09/09/mood-diary-20150909/"/>
-    <id>http://www.xuwenhui.net/2015/09/09/mood-diary-20150909/</id>
+    <link href="http://xuwenhui.net/2015/09/09/mood-diary-20150909/"/>
+    <id>http://xuwenhui.net/2015/09/09/mood-diary-20150909/</id>
     <published>2015-09-09T13:00:00.000Z</published>
     <updated>2015-11-13T04:50:16.309Z</updated>
     <content type="html"><![CDATA[<p>2015/09/09 Wed 武汉 26℃ 多云</p>
@@ -145,16 +145,16 @@
     
     </summary>
     
-      <category term="心情日志" scheme="http://www.xuwenhui.net/tags/%E5%BF%83%E6%83%85%E6%97%A5%E5%BF%97/"/>
+      <category term="心情日志" scheme="http://xuwenhui.net/tags/%E5%BF%83%E6%83%85%E6%97%A5%E5%BF%97/"/>
     
-      <category term="心情日志" scheme="http://www.xuwenhui.net/categories/%E5%BF%83%E6%83%85%E6%97%A5%E5%BF%97/"/>
+      <category term="心情日志" scheme="http://xuwenhui.net/categories/%E5%BF%83%E6%83%85%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[WiFi ADB + Vysor 打造超棒的 Android 真机调试体验]]></title>
-    <link href="http://www.xuwenhui.net/2015/09/09/WiFi-ADB-and-Vysor/"/>
-    <id>http://www.xuwenhui.net/2015/09/09/WiFi-ADB-and-Vysor/</id>
+    <link href="http://xuwenhui.net/2015/09/09/WiFi-ADB-and-Vysor/"/>
+    <id>http://xuwenhui.net/2015/09/09/WiFi-ADB-and-Vysor/</id>
     <published>2015-09-09T09:12:02.000Z</published>
     <updated>2015-11-13T04:49:50.293Z</updated>
     <content type="html"><![CDATA[<p>一直苦恼于 Android Studio + Genymotion 对内存极大的消耗，常常导致电脑内存消耗殆尽，于是只能使用真机调试，可有时又会遇到没带数据线的尴尬，或者是萌生出在电脑上实时操控真机的想法，偶然在网络上get到了一个新技能，最终完美解决。</p>
@@ -187,16 +187,16 @@
     
     </summary>
     
-      <category term="android" scheme="http://www.xuwenhui.net/tags/android/"/>
+      <category term="android" scheme="http://xuwenhui.net/tags/android/"/>
     
-      <category term="android" scheme="http://www.xuwenhui.net/categories/android/"/>
+      <category term="android" scheme="http://xuwenhui.net/categories/android/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[收录的计算机术语（不定期补充···）]]></title>
-    <link href="http://www.xuwenhui.net/2015/08/12/computer-terms/"/>
-    <id>http://www.xuwenhui.net/2015/08/12/computer-terms/</id>
+    <link href="http://xuwenhui.net/2015/08/12/computer-terms/"/>
+    <id>http://xuwenhui.net/2015/08/12/computer-terms/</id>
     <published>2015-08-12T10:45:24.000Z</published>
     <updated>2015-11-13T04:48:14.689Z</updated>
     <content type="html"><![CDATA[<p>有感于自己糟糕的英语，现收录一些计算机方面的术语，以后看到会不定期补充进来，时不时可以翻阅一下。</p>
@@ -244,18 +244,18 @@
     
     </summary>
     
-      <category term="computer terms" scheme="http://www.xuwenhui.net/tags/computer-terms/"/>
+      <category term="computer terms" scheme="http://xuwenhui.net/tags/computer-terms/"/>
     
-      <category term="不定期补充···" scheme="http://www.xuwenhui.net/tags/%E4%B8%8D%E5%AE%9A%E6%9C%9F%E8%A1%A5%E5%85%85%C2%B7%C2%B7%C2%B7/"/>
+      <category term="不定期补充···" scheme="http://xuwenhui.net/tags/%E4%B8%8D%E5%AE%9A%E6%9C%9F%E8%A1%A5%E5%85%85%C2%B7%C2%B7%C2%B7/"/>
     
-      <category term="programming" scheme="http://www.xuwenhui.net/categories/programming/"/>
+      <category term="programming" scheme="http://xuwenhui.net/categories/programming/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Android 使用 Web Service 进行网络编程]]></title>
-    <link href="http://www.xuwenhui.net/2015/08/12/android-webservice/"/>
-    <id>http://www.xuwenhui.net/2015/08/12/android-webservice/</id>
+    <link href="http://xuwenhui.net/2015/08/12/android-webservice/"/>
+    <id>http://xuwenhui.net/2015/08/12/android-webservice/</id>
     <published>2015-08-12T02:49:59.000Z</published>
     <updated>2015-11-13T04:47:45.201Z</updated>
     <content type="html"><![CDATA[<p>最近在实习项目中需要用到 Web Service 进行后台网络通讯，期间遇到了不少的问题，现在，项目也差不多做完了，故总结一下。</p>
@@ -283,18 +283,18 @@
     
     </summary>
     
-      <category term="android" scheme="http://www.xuwenhui.net/tags/android/"/>
+      <category term="android" scheme="http://xuwenhui.net/tags/android/"/>
     
-      <category term="webservice" scheme="http://www.xuwenhui.net/tags/webservice/"/>
+      <category term="webservice" scheme="http://xuwenhui.net/tags/webservice/"/>
     
-      <category term="android" scheme="http://www.xuwenhui.net/categories/android/"/>
+      <category term="android" scheme="http://xuwenhui.net/categories/android/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[程序员必读经典书籍]]></title>
-    <link href="http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/"/>
-    <id>http://www.xuwenhui.net/2015/07/28/books-programmer-should-read/</id>
+    <link href="http://xuwenhui.net/2015/07/28/books-programmer-should-read/"/>
+    <id>http://xuwenhui.net/2015/07/28/books-programmer-should-read/</id>
     <published>2015-07-28T11:41:16.000Z</published>
     <updated>2015-11-13T04:47:18.146Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -339,16 +339,16 @@
     
     </summary>
     
-      <category term="读书" scheme="http://www.xuwenhui.net/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://xuwenhui.net/tags/%E8%AF%BB%E4%B9%A6/"/>
     
-      <category term="读书" scheme="http://www.xuwenhui.net/categories/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://xuwenhui.net/categories/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Android 基础知识总结]]></title>
-    <link href="http://www.xuwenhui.net/2015/07/01/android-summary/"/>
-    <id>http://www.xuwenhui.net/2015/07/01/android-summary/</id>
+    <link href="http://xuwenhui.net/2015/07/01/android-summary/"/>
+    <id>http://xuwenhui.net/2015/07/01/android-summary/</id>
     <published>2015-07-01T10:44:39.000Z</published>
     <updated>2015-11-13T04:46:44.233Z</updated>
     <content type="html"><![CDATA[<p>以“一问一答”的形式总结记录自己在android学习过程中的重要知识点，让知识更清晰，便于记忆与理解，也有助于以后各种android相关的笔试、面试。</p>
@@ -384,16 +384,16 @@
     
     </summary>
     
-      <category term="android" scheme="http://www.xuwenhui.net/tags/android/"/>
+      <category term="android" scheme="http://xuwenhui.net/tags/android/"/>
     
-      <category term="android" scheme="http://www.xuwenhui.net/categories/android/"/>
+      <category term="android" scheme="http://xuwenhui.net/categories/android/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[玩转hexo]]></title>
-    <link href="http://www.xuwenhui.net/2015/06/24/play-hexo/"/>
-    <id>http://www.xuwenhui.net/2015/06/24/play-hexo/</id>
+    <link href="http://xuwenhui.net/2015/06/24/play-hexo/"/>
+    <id>http://xuwenhui.net/2015/06/24/play-hexo/</id>
     <published>2015-06-24T03:01:55.000Z</published>
     <updated>2016-10-09T14:49:00.696Z</updated>
     <content type="html"><![CDATA[<p>最近浏览了一些基于hexo的博客，发现了许许多多好玩的东西，故收藏整理之，教你玩转hexo！！！</p>
@@ -433,7 +433,7 @@
 <li>将自己喜欢的图片从本地上传到七牛云存储仓库。  </li>
 <li>得到一个外链地址，将外链地址作为图片的URL地址写进文章。  </li>
 </ol>
-<p>推荐的图片资源网站,见相关博客：<a href="http://www.xuwenhui.net/2015/06/08/%E6%95%B4%E7%90%86%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/">整理的学习网站（不定期补充···）</a>  </p>
+<p>推荐的图片资源网站,见相关博客：<a href="http://www.xuwenhui.net/2015/06/08/%E6%95%B4%E7%90%86%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/" target="_blank" rel="external">整理的学习网站（不定期补充···）</a>  </p>
 <p><img src="http://7xjda2.com1.z0.glb.clouddn.com/004/heytvm_overrated.gif" alt=""><br><em>注：图片来自于<a href="https://dribbble.com/shots/2116166-Keep-it-together" target="_blank" rel="external">Dribbble</a>。</em>  </p>
 <p><em>————————————原创文章，未经许可，请勿转载！！！————————————</em></p>
 ]]></content>
@@ -446,16 +446,16 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://www.xuwenhui.net/tags/hexo/"/>
+      <category term="hexo" scheme="http://xuwenhui.net/tags/hexo/"/>
     
-      <category term="hexo" scheme="http://www.xuwenhui.net/categories/hexo/"/>
+      <category term="hexo" scheme="http://xuwenhui.net/categories/hexo/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[蓝桥杯比赛算法总结]]></title>
-    <link href="http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/"/>
-    <id>http://www.xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/</id>
+    <link href="http://xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/"/>
+    <id>http://xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/</id>
     <published>2015-06-18T14:35:24.000Z</published>
     <updated>2015-11-13T04:44:02.321Z</updated>
     <content type="html"><![CDATA[<p>今天突然想把我自己在蓝桥杯比赛时准备的一些算法记录下来，以便翻阅。</p>
@@ -488,16 +488,16 @@
     
     </summary>
     
-      <category term="算法" scheme="http://www.xuwenhui.net/tags/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="http://xuwenhui.net/tags/%E7%AE%97%E6%B3%95/"/>
     
-      <category term="programming" scheme="http://www.xuwenhui.net/categories/programming/"/>
+      <category term="programming" scheme="http://xuwenhui.net/categories/programming/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[整理的学习网站（不定期补充···）]]></title>
-    <link href="http://www.xuwenhui.net/2015/06/08/sorting-learning-website/"/>
-    <id>http://www.xuwenhui.net/2015/06/08/sorting-learning-website/</id>
+    <link href="http://xuwenhui.net/2015/06/08/sorting-learning-website/"/>
+    <id>http://xuwenhui.net/2015/06/08/sorting-learning-website/</id>
     <published>2015-06-08T02:00:26.000Z</published>
     <updated>2015-11-29T12:56:50.477Z</updated>
     <content type="html"><![CDATA[<p>整理一些自己觉得实用的网站，主要是和技术相关。</p>
@@ -542,18 +542,18 @@
     
     </summary>
     
-      <category term="不定期补充···" scheme="http://www.xuwenhui.net/tags/%E4%B8%8D%E5%AE%9A%E6%9C%9F%E8%A1%A5%E5%85%85%C2%B7%C2%B7%C2%B7/"/>
+      <category term="不定期补充···" scheme="http://xuwenhui.net/tags/%E4%B8%8D%E5%AE%9A%E6%9C%9F%E8%A1%A5%E5%85%85%C2%B7%C2%B7%C2%B7/"/>
     
-      <category term="网站整理" scheme="http://www.xuwenhui.net/tags/%E7%BD%91%E7%AB%99%E6%95%B4%E7%90%86/"/>
+      <category term="网站整理" scheme="http://xuwenhui.net/tags/%E7%BD%91%E7%AB%99%E6%95%B4%E7%90%86/"/>
     
-      <category term="其他" scheme="http://www.xuwenhui.net/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="其他" scheme="http://xuwenhui.net/categories/%E5%85%B6%E4%BB%96/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[关于博客]]></title>
-    <link href="http://www.xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://www.xuwenhui.net/2015/05/30/关于博客/</id>
+    <link href="http://xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://xuwenhui.net/2015/05/30/关于博客/</id>
     <published>2015-05-30T07:53:25.000Z</published>
     <updated>2015-11-13T04:42:44.363Z</updated>
     <content type="html"><![CDATA[<p><em>花了几天时间，终于成功搭建了我的独立博客~~~喜o(∩_∩)o</em></p>
@@ -608,9 +608,9 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://www.xuwenhui.net/tags/hexo/"/>
+      <category term="hexo" scheme="http://xuwenhui.net/tags/hexo/"/>
     
-      <category term="hexo" scheme="http://www.xuwenhui.net/categories/hexo/"/>
+      <category term="hexo" scheme="http://xuwenhui.net/categories/hexo/"/>
     
   </entry>
   
