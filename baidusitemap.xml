@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/06/24/play-hexo/</loc>
+    <lastmod>2016-10-09T14:49:00.696Z</lastmod>
+    <data>
+        <display>
+        <title>玩转hexo</title>
+        <pubTime>2015-06-24T03:01:55.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="http://xuwenhui.net/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/06/08/sorting-learning-website/</loc>
+    <lastmod>2015-11-29T12:56:50.477Z</lastmod>
+    <data>
+        <display>
+        <title>整理的学习网站（不定期补充···）</title>
+        <pubTime>2015-06-08T02:00:26.000Z</pubTime>
+        
+        <tag>不定期补充···</tag>
+         
+        <tag>网站整理</tag>
+         
+         
+           
+             
+              <breadCrumb title="其他" url="http://xuwenhui.net/categories/%E5%85%B6%E4%BB%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/09/14/Thinking-in-Java-reading-notes/</loc>
+    <lastmod>2015-11-13T04:50:54.356Z</lastmod>
+    <data>
+        <display>
+        <title>Java 编程思想 - 读书笔记</title>
+        <pubTime>2015-09-14T15:37:15.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>读书</tag>
+         
+        <tag>连载中···</tag>
+         
+         
+           
+             
+              <breadCrumb title="读书" url="http://xuwenhui.net/categories/%E8%AF%BB%E4%B9%A6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/09/09/mood-diary-20150909/</loc>
+    <lastmod>2015-11-13T04:50:16.309Z</lastmod>
+    <data>
+        <display>
+        <title>心情日志 —— 2015/09/09</title>
+        <pubTime>2015-09-09T13:00:00.000Z</pubTime>
+        
+        <tag>心情日志</tag>
+         
+         
+           
+             
+              <breadCrumb title="心情日志" url="http://xuwenhui.net/categories/%E5%BF%83%E6%83%85%E6%97%A5%E5%BF%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/09/09/WiFi-ADB-and-Vysor/</loc>
+    <lastmod>2015-11-13T04:49:50.293Z</lastmod>
+    <data>
+        <display>
+        <title>WiFi ADB + Vysor 打造超棒的 Android 真机调试体验</title>
+        <pubTime>2015-09-09T09:12:02.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+         
+           
+             
+              <breadCrumb title="android" url="http://xuwenhui.net/categories/android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/08/12/computer-terms/</loc>
+    <lastmod>2015-11-13T04:48:14.689Z</lastmod>
+    <data>
+        <display>
+        <title>收录的计算机术语（不定期补充···）</title>
+        <pubTime>2015-08-12T10:45:24.000Z</pubTime>
+        
+        <tag>computer terms</tag>
+         
+        <tag>不定期补充···</tag>
+         
+         
+           
+             
+              <breadCrumb title="programming" url="http://xuwenhui.net/categories/programming/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/08/12/android-webservice/</loc>
+    <lastmod>2015-11-13T04:47:45.201Z</lastmod>
+    <data>
+        <display>
+        <title>Android 使用 Web Service 进行网络编程</title>
+        <pubTime>2015-08-12T02:49:59.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+        <tag>webservice</tag>
+         
+         
+           
+             
+              <breadCrumb title="android" url="http://xuwenhui.net/categories/android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/07/28/books-programmer-should-read/</loc>
+    <lastmod>2015-11-13T04:47:18.146Z</lastmod>
+    <data>
+        <display>
+        <title>程序员必读经典书籍</title>
+        <pubTime>2015-07-28T11:41:16.000Z</pubTime>
+        
+        <tag>读书</tag>
+         
+         
+           
+             
+              <breadCrumb title="读书" url="http://xuwenhui.net/categories/%E8%AF%BB%E4%B9%A6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/07/01/android-summary/</loc>
+    <lastmod>2015-11-13T04:46:44.233Z</lastmod>
+    <data>
+        <display>
+        <title>Android 基础知识总结</title>
+        <pubTime>2015-07-01T10:44:39.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+         
+           
+             
+              <breadCrumb title="android" url="http://xuwenhui.net/categories/android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/06/18/lanqiao-algorithm-summary/</loc>
+    <lastmod>2015-11-13T04:44:02.321Z</lastmod>
+    <data>
+        <display>
+        <title>蓝桥杯比赛算法总结</title>
+        <pubTime>2015-06-18T14:35:24.000Z</pubTime>
+        
+        <tag>算法</tag>
+         
+         
+           
+             
+              <breadCrumb title="programming" url="http://xuwenhui.net/categories/programming/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xuwenhui.net/2015/05/30/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2015-11-13T04:42:44.363Z</lastmod>
+    <data>
+        <display>
+        <title>关于博客</title>
+        <pubTime>2015-05-30T07:53:25.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="http://xuwenhui.net/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+</urlset>
